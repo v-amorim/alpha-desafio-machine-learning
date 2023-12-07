@@ -1,0 +1,40 @@
+[MAIN]
+jobs=0
+
+fail-under=10
+
+
+[MESSAGES CONTROL]
+
+enable=
+    use-symbolic-message-instead,
+    useless-suppression,
+
+disable=
+    attribute-defined-outside-init,
+    broad-exception-caught,
+    fixme,
+    format,
+    import-error,
+    invalid-name,
+    missing-docstring,
+    protected-access,
+    too-few-public-methods,
+    wrong-import-order
+
+
+[FORMAT]
+
+max-line-length=120
+
+# Regexp for a line that is allowed to be longer than the limit.
+ignore-long-lines=^.*# noqa: E501$
+
+[REPORTS]
+
+msg-template = {path}:{line:03d} | [{msg_id}] {symbol:<30} | {obj:<40} | {msg}
+
+
+[DESIGN]
+
+max-attributes=11
