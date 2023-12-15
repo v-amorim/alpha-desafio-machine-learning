@@ -14,17 +14,19 @@ Para instalar a versão 3.11.2 necessária para o projeto, basta rodar o comando
 # Instala o pip-tools
 (.venv) > python -m pip install pip-tools
 # Gera o requirements.txt
-(.venv) > pip-compile --upgrade --resolver=backtracking
+(.venv) > python -m piptools compile
 # Instala as dependências
-(.venv) > pip-sync
+(.venv) > python -m piptools sync
+# Instala o pre-commit (padrões de código)
+(.venv) > pre-commit install
 ```
 
 Tudo junto, para facilitar:
 
 ```bash
 # Windows CMD e Powershell
-> python -m pip install virtualenv & virtualenv .venv & .venv\Scripts\activate & python -m pip install pip-tools & pip-compile --upgrade --resolver=backtracking & pip-sync
-> python -m pip install virtualenv ; virtualenv .venv ; .venv\Scripts\activate ; python -m pip install pip-tools ; pip-compile --upgrade --resolver=backtracking ; pip-sync
+> python -m pip install virtualenv & python -m virtualenv .venv & .venv\Scripts\activate & python -m pip install pip-tools & python -m piptools compile & python -m piptools sync & pre-commit install
+> python -m pip install virtualenv ; python -m virtualenv .venv ; .venv\Scripts\activate ; python -m pip install pip-tools ; python -m piptools compile ; python -m piptools sync ; pre-commit install
 ```
 
 ---
@@ -35,20 +37,18 @@ Tudo junto, para facilitar:
 # Ativa o ambiente virtual
 > .venv\Scripts\activate
 # Gera o requirements.txt
-(.venv) > pip-compile --upgrade --resolver=backtracking
+(.venv) > python -m piptools compile
 # Instala as dependências
-(.venv) > pip-sync
+(.venv) > python -m piptools sync
 ```
 
 Tudo junto, para facilitar:
 
 ```bash
 # Windows CMD e Powershell
-> .venv\Scripts\activate & pip-compile --upgrade --resolver=backtracking & pip-sync
-> .venv\Scripts\activate ; pip-compile --upgrade --resolver=backtracking ; pip-sync
+> .venv\Scripts\activate & python -m piptools compile & python -m piptools sync
+> .venv\Scripts\activate ; python -m piptools compile ; python -m piptools sync
 ```
-
-- Rodando o script `helper.bat` com a opção Atualizar dependencias
 
 ---
 
