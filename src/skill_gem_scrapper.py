@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from concurrent.futures import as_completed
 from concurrent.futures import ThreadPoolExecutor
 
@@ -127,11 +128,17 @@ def main():
     skill_gem_details = scraper.scrape_all_skill_gem_details()
 
     result_json = json.dumps(skill_gem_details, indent=2)
+    result_folder_name = 'skill_gem_data'
+    result_json_path = f'{result_folder_name}/skill_gem_details.json'
 
-    with open('skill_gem_details.json', 'w', encoding='utf8') as json_file:
+    # Check if the folder exists, and create it if not
+    if not os.path.exists(result_folder_name):
+        os.makedirs(result_folder_name)
+
+    with open(result_json_path, 'w', encoding='utf8') as json_file:
         json_file.write(result_json + '\n')
 
-    print(f"{cc.green_done()} Scraping completed. Result saved to {cc.blue_var('skill_gem_details.json')}")
+    print(f'{cc.green_done()} Scraping completed. Result saved to {cc.blue_var(result_json_path)}')
 
 
 if __name__ == '__main__':
