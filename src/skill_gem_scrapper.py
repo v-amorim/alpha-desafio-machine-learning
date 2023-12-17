@@ -12,11 +12,12 @@ from tqdm import tqdm
 class SkillGemScraper:
     """Scrape skill gem details from Path of Exile wiki."""
 
-    def __init__(self) -> None:
+    def __init__(self, skill_gem_color: str = 'all') -> None:
         """Initialize the SkillGemScraper."""
         self.base_url: str = 'https://www.poewiki.net/wiki/'
         self.base_xpath: str = '//*[@id="mw-content-text"]/div[1]'
         self.skill_gems: list[str] = []
+        self.skill_gem_color: str = skill_gem_color
 
     def get_parsed_tree(self, url: str) -> html.HtmlElement | None:
         """Fetch and parse HTML content."""
@@ -35,7 +36,14 @@ class SkillGemScraper:
             'Blue Skill Gems': f'{self.base_xpath}/div[4]/table/tbody/tr[*]/td[1]/span/span/a/text()'
         }
 
-        for xpath in category_xpaths.values():
+        if self.skill_gem_color == 'All Skill Gems':
+            xpaths = category_xpaths.values()
+        elif self.skill_gem_color in category_xpaths:
+            xpaths = [category_xpaths[self.skill_gem_color]]
+        else:
+            raise ValueError(f'Invalid color: {self.skill_gem_color}')
+
+        for xpath in xpaths:
             tree = self.get_parsed_tree(self.base_url + 'List_of_skill_gems')
             if tree is not None:
                 self.skill_gems.extend(tree.xpath(xpath))
@@ -87,7 +95,29 @@ class SkillGemScraper:
 
 if __name__ == '__main__':
     # Create an instance of the class and perform the scraping
-    scraper: SkillGemScraper = SkillGemScraper()
+    skill_gem_colors = {
+        1: 'Red Skill Gems',
+        2: 'Green Skill Gems',
+        3: 'Blue Skill Gems',
+        4: 'All Skill Gems'
+    }
+
+    # Display color options to the user
+    for key, value in skill_gem_colors.items():
+        print(f'{key}: {value}')
+
+    # Get user input for skill gem color choice
+    user_choice = int(input('Enter the number corresponding to the desired skill gem color: '))
+
+    # Validate user input
+    while user_choice not in skill_gem_colors:
+        print('Invalid choice.')
+        user_choice = int(input('Enter the number corresponding to the desired skill gem color: '))
+
+    selected_color = skill_gem_colors[user_choice]
+
+    # Create an instance of the class with the selected color
+    scraper: SkillGemScraper = SkillGemScraper(skill_gem_color=selected_color)
     skill_gem_details: list[dict[str, list[str]]] = scraper.scrape_all_skill_gem_details()
 
     # Convert the result to JSON
