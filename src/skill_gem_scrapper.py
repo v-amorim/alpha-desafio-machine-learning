@@ -15,6 +15,7 @@ class SkillGemScraper:
     def __init__(self) -> None:
         """Initialize the SkillGemScraper."""
         self.base_url: str = 'https://www.poewiki.net/wiki/'
+        self.base_xpath: str = '//*[@id="mw-content-text"]/div[1]'
         self.skill_gems: list[str] = []
 
     def get_parsed_tree(self, url: str) -> html.HtmlElement | None:
@@ -29,9 +30,9 @@ class SkillGemScraper:
     def scrape_skill_gem_names(self) -> None:
         """Scrape skill gem names from different categories."""
         category_xpaths: dict[str, str] = {
-            'Red Skill Gems': '//*[@id="mw-content-text"]/div[1]/div[2]/table/tbody/tr[*]/td[1]/span/span/a/text()',
-            'Green Skill Gems': '//*[@id="mw-content-text"]/div[1]/div[3]/table/tbody/tr[*]/td[1]/span/span/a/text()',
-            'Blue Skill Gems': '//*[@id="mw-content-text"]/div[1]/div[4]/table/tbody/tr[*]/td[1]/span/span/a/text()'
+            'Red Skill Gems': f'{self.base_xpath}/div[2]/table/tbody/tr[*]/td[1]/span/span/a/text()',
+            'Green Skill Gems': f'{self.base_xpath}/div[3]/table/tbody/tr[*]/td[1]/span/span/a/text()',
+            'Blue Skill Gems': f'{self.base_xpath}/div[4]/table/tbody/tr[*]/td[1]/span/span/a/text()'
         }
 
         for xpath in category_xpaths.values():
@@ -42,9 +43,9 @@ class SkillGemScraper:
     def scrape_skill_gem_details(self, skill_gem: str) -> dict[str, list[str]] | None:
         """Scrape details for a given skill gem."""
         skill_gem_url: str = self.base_url + skill_gem
-        description_xpath: str = '//*[@id="mw-content-text"]/div[1]/p[1]/span/span[1]/span[2]/span[3]/text()'
-        tags_xpath: str = '//*[@id="mw-content-text"]/div[1]/p[1]/span/span[1]/span[2]/span[1]/a/text()'
-        name_xpath: str = '//*[@id="mw-content-text"]/div[1]/p[1]/span/span[1]/span[1]/text()'
+        name_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[1]/text()'
+        tags_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[1]/a/text()'
+        description_xpath = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[@class="group tc -gemdesc"]/text()'
 
         response = requests.get(skill_gem_url)
 

@@ -250,11 +250,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "When Dual Wielding, Deals 60% Damage from each Weapon combined",
-      "(2-75) to (3-113) Added Attack Physical Damage",
-      "+(0-1) metre to radius",
-      " ",
-      " "
+      "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords."
     ]
   },
   {
@@ -267,11 +263,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "When Dual Wielding, Deals 60% Damage from each Weapon combined",
-      "+0.1 metres to Radius per 3 Rage",
-      "Gain 1 Rage if this Skill Hits any Enemies",
-      " ",
-      " "
+      "The character swings both their weapons in an arc, damaging monsters in an area in front of them. Requires dual wielding both an Axe and a Sword."
     ]
   },
   {
@@ -618,15 +610,7 @@
       "Cold"
     ],
     "Skill Gem Description": [
-      "25% chance to Freeze enemies",
-      "100% of Physical Damage Converted to Cold Damage",
-      "Every third successive strike Freezes enemies as though dealing (200-390)% more Damage",
-      "+0.2 metres to Melee Strike Range",
-      "35% increased Duration of Cold Ailments",
-      "(10-29)% increased Effect of Cold Ailments",
-      "Adds (2-75) to (3-113) Cold Damage against Chilled Enemies",
-      " ",
-      " "
+      "Hits enemies, converting some of your physical damage to cold damage. If a non-unique enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff."
     ]
   },
   {
@@ -641,12 +625,7 @@
       "Cold"
     ],
     "Skill Gem Description": [
-      "100% of Physical Damage Converted to Cold Damage",
-      "Every third successive strike is a Critical Strike",
-      "+0.2 metres to Melee Strike Range",
-      "Adds (2-75) to (3-113) Cold Damage against Chilled Enemies",
-      " ",
-      " "
+      "Hits enemies, converting some of your physical damage to cold damage. If striking three times in a row, the third strike will be a critical strike. Requires a Mace, Sceptre or Staff."
     ]
   },
   {
@@ -660,11 +639,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "25% reduced Enemy Stun Threshold",
-      "+(0-1) metre to radius",
-      "Deals up to (40-49)% more Damage with Hits to closer targets",
-      " ",
-      " "
+      "Slams the ground in front of you, creating a wave that travels forward and damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -678,11 +653,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "25% reduced Enemy Stun Threshold",
-      "+(0-1) metre to radius",
-      "100% increased angle",
-      " ",
-      " "
+      "Slams the ground in front of you, creating a wide wave that travels forward and damages enemies with an increased chance to stun. Requires a Two Handed Axe, Two Handed Mace, or Staff."
     ]
   },
   {
@@ -695,12 +666,7 @@
       "Strike"
     ],
     "Skill Gem Description": [
-      "Knocks Enemies Back on Hit",
-      "25% reduced Enemy Stun Threshold",
-      "+0.2 metres to Melee Strike Range",
-      "(20-39)% chance to deal Double Damage",
-      " ",
-      " "
+      "Attacks enemies with a forceful blow, knocking them back. Requires a Mace, Sceptre, Axe, Sword or Two-Handed Weapon."
     ]
   },
   {
@@ -932,13 +898,7 @@
       "Fire"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Fire Damage",
-      "Fires 4 Projectiles",
-      "60% of Physical Damage Converted to Fire Damage",
-      "+(0.2-0.6) metres to Melee Strike Range",
-      "Projectiles deal 50% less Damage with Hits and Ailments",
-      " ",
-      " "
+      "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land."
     ]
   },
   {
@@ -954,14 +914,7 @@
       "Fire"
     ],
     "Skill Gem Description": [
-      "Fires 3 Projectiles",
-      "60% of Physical Damage Converted to Fire Damage",
-      "+(0.2-0.6) metres to Melee Strike Range",
-      "Projectiles deal 50% less Damage with Hits and Ailments",
-      "Every fifth Attack fires 5 additional Projectiles",
-      "Every fifth Attack, Projectiles deal 800% more Damage with Hits and Ailments",
-      " ",
-      " "
+      "Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles."
     ]
   },
   {
@@ -976,12 +929,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Attack Physical Damage",
-      "Creates 7 Spikes",
-      "75% less Damage while in Blood Stance",
-      "(0-76)% more Area of Effect while in Sand Stance",
-      " ",
-      " "
+      "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default."
     ]
   },
   {
@@ -996,12 +944,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Attack Physical Damage",
-      "Creates 5 Spikes",
-      "(50-88)% more Damage with Bleeding",
-      "25% chance to cause Bleeding",
-      " ",
-      " "
+      "Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times.\nRequires a Sword or Axe."
     ]
   },
   {
@@ -1016,13 +959,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Attack Physical Damage",
-      "Creates 10 additional Spikes if you've changed Stance Recently",
-      "Creates 3 Spikes",
-      "75% less Damage while in Blood Stance",
-      "(0-76)% more Area of Effect while in Sand Stance",
-      " ",
-      " "
+      "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default."
     ]
   },
   {
@@ -1228,11 +1165,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "(4-172) to (6-258) Base Off Hand Physical Damage",
-      "(3-5) to (4-7) Added Physical Damage per 15 Armour or Evasion Rating on Shield",
-      "+(0-0.6) metres to radius",
-      " ",
-      " "
+      "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap."
     ]
   },
   {
@@ -1246,11 +1179,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "(5-222) to (7-334) Base Off Hand Fire Damage",
-      "(5-7) to (7-9) Added Fire Damage per 15 Armour on Shield",
-      "Central wave has (50-88)% more Area of Effect",
-      " ",
-      " "
+      "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap."
     ]
   },
   {
@@ -1282,14 +1211,7 @@
       "Aura"
     ],
     "Skill Gem Description": [
-      "50% of Physical Damage Converted to Lightning Damage",
-      "Base duration is 4.00 seconds",
-      "(30-20)% less Area Damage",
-      "Lightning strikes 1 target within 5 metres",
-      "Aura grants (1-12) to (4-220) added Lightning Damage",
-      "Aura grants (10-19)% chance to Shock",
-      " ",
-      " "
+      "Performs a melee attack, and causes lightning to strike a nearby enemy, dealing damage in an area. Each target can only be hit once by this skill. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -1304,11 +1226,7 @@
       "Strike"
     ],
     "Skill Gem Description": [
-      "50% of Physical Damage Converted to Lightning Damage",
-      "(0-38)% more Area Damage",
-      "Lightning strikes 3 targets within 5 metres",
-      " ",
-      " "
+      "Performs a melee attack, and causes lightning to strike nearby enemies, dealing damage in an area. Each target can only be hit once by this skill. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -1543,20 +1461,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "When Dual Wielding, Deals 60% Damage from each Weapon combined",
-      "Base duration is 20.00 seconds",
-      "Base secondary duration is 20.00 seconds",
-      "+0.8 seconds to Attack Time",
-      "(2-75) to (3-113) Added Attack Physical Damage",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "+(1.5-2.4) metres to radius",
-      "Culling Strike",
-      "Can't be Evaded",
-      "Buff grants Culling Strike with Cleave",
-      "Buff grants 60% more Cleave Area of Effect",
-      "Buff grants 60% more Cleave Damage with Hits and Ailments to Enemies that are on Low Life",
-      " ",
-      " "
+      "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Killing Blows on Rare or Unique enemies grant a buff that improves Cleave for a duration. Killing Blows on Rare Enemies also steal their modifiers for a secondary duration. Only works with Axes and Swords."
     ]
   },
   {
@@ -1606,18 +1511,7 @@
       "Cold"
     ],
     "Skill Gem Description": [
-      "Base duration is (3.40-4.35) seconds",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "25% chance to Freeze enemies",
-      "100% of Physical Damage Converted to Cold Damage",
-      "Freezes enemies as though dealing (200-390)% more Damage",
-      "Can't be Evaded",
-      "+0.2 metres to Melee Strike Range",
-      "35% increased Duration of Cold Ailments",
-      "(10-29)% increased Effect of Cold Ailments",
-      "Adds (2-75) to (3-113) Cold Damage against Chilled Enemies",
-      " ",
-      " "
+      "Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff."
     ]
   },
   {
@@ -1632,14 +1526,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "25% reduced Enemy Stun Threshold",
-      "+(0-0.9) metres to radius",
-      "200% increased Stun Duration on enemies",
-      "Can't be Evaded",
-      "Deals up to (40-49)% more Damage with Hits to closer targets",
-      "This Attack can be Exerted as though it was not a Vaal Skill",
-      " ",
-      " "
+      "Slams the ground in front of you, creating a wave that travels in all directions that damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -1690,16 +1577,7 @@
       "Vaal"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Fire Damage",
-      "Fires 9 Projectiles",
-      "+0.4 metres to radius",
-      "Chains +8 Times",
-      "60% of Physical Damage Converted to Fire Damage",
-      "Can't be Evaded",
-      "Projectiles can Chain when impacting the ground",
-      "Projectiles do not change direction when Chaining",
-      " ",
-      " "
+      "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth causing area attack damage to enemies where they land."
     ]
   },
   {
@@ -1747,16 +1625,7 @@
       "Vaal"
     ],
     "Skill Gem Description": [
-      "50% of Physical Damage Converted to Lightning Damage",
-      "Base duration is 8.00 seconds",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "Can't be Evaded",
-      "Lightning strikes 30 targets within 10 metres",
-      "Aura makes Smite strike +1 target with lightning",
-      "Aura grants (1-17) to (7-330) added Lightning Damage",
-      "Aura grants (10-19)% chance to Shock",
-      " ",
-      " "
+      "Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -2319,11 +2188,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Adds (3-201) to (4-302) Fire Damage to Attacks against Ignited Enemies",
-      "25% chance to Ignite enemies",
-      "100% of Physical Damage Converted to Fire Damage",
-      " ",
-      " "
+      "Fires a burning arrow that deals fire damage and has a chance to ignite."
     ]
   },
   {
@@ -2337,11 +2202,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Deals Added Fire Damage equal to (15-24)% of Maximum Life",
-      "25% chance to Ignite enemies",
-      "100% of Physical Damage Converted to Fire Damage",
-      " ",
-      " "
+      "Fires a burning arrow that deals fire damage and has a chance to ignite."
     ]
   },
   {
@@ -2357,13 +2218,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Deals (8.8-1927.1) Base Chaos Damage per second",
-      "Base duration is 2.00 seconds",
-      "Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect",
-      "+(0-0.6) metres to radius",
-      "60% of Physical Damage Converted to Chaos Damage",
-      " ",
-      " "
+      "Fires an arrow which deals chaos damage in an area on impact, and spreads caustic ground. Enemies standing on the caustic ground take chaos damage over time."
     ]
   },
   {
@@ -2378,12 +2233,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "(3-113) to (5-169) Added Chaos Damage",
-      "+(0-0.6) metres to radius",
-      "60% of Physical Damage Converted to Chaos Damage",
-      "40% chance to Poison on Hit",
-      " ",
-      " "
+      "Fires a poisonous arrow which deals chaos damage in an area on impact."
     ]
   },
   {
@@ -2412,13 +2262,7 @@
       "Chaos"
     ],
     "Skill Gem Description": [
-      "(3-113) to (5-169) Added Chaos Damage",
-      "8% more Damage with Hits and Ailments for each remaining Chain",
-      "Chains +(3-5) Times",
-      "60% of Physical Damage Converted to Chaos Damage",
-      "40% chance to Poison on Hit",
-      " ",
-      " "
+      "Fires a poisonous projectile based on your weapon that will chain between enemies. Requires a Dagger or Claw."
     ]
   },
   {
@@ -2579,10 +2423,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "25% chance to cause Bleeding",
-      "Adds (3-113) to (5-169) Physical Damage against Bleeding Enemies",
-      " ",
-      " "
+      "Performs two fast strikes with a melee weapon."
     ]
   },
   {
@@ -2596,10 +2437,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Killing Blows cause Impales on Enemies to Reflect Damage to surrounding Enemies",
-      "40% chance to Impale Enemies on Hit",
-      " ",
-      " "
+      "Performs two fast strikes with a melee weapon."
     ]
   },
   {
@@ -2612,11 +2450,7 @@
       "Strike"
     ],
     "Skill Gem Description": [
-      "10% more Attack Speed for each Stage",
-      "Gain a Stage at the start of each pair of swings",
-      "Maximum 10 Stages",
-      " ",
-      " "
+      "Performs two fast strikes with a melee weapon, gaining stages which cause this skill to attack faster. All stages are lost when you move."
     ]
   },
   {
@@ -2630,10 +2464,7 @@
       "Strike"
     ],
     "Skill Gem Description": [
-      "100% more Critical Strike Chance against Enemies that are on Full Life",
-      "60% more Damage with Hits and Ailments against Enemies that are on Full Life",
-      " ",
-      " "
+      "Attacks with both weapons, dealing the damage of both in one strike. Dual wield only. Does not work with wands."
     ]
   },
   {
@@ -2646,10 +2477,7 @@
       "Strike"
     ],
     "Skill Gem Description": [
-      "50% more Damage with Main Hand Weapon",
-      "Uses Off Hand Weapon Attack Time",
-      " ",
-      " "
+      "Attacks with both weapons, dealing the damage of both in one strike. Requires dual-wielding two different melee weapon types to use."
     ]
   },
   {
@@ -2696,10 +2524,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (7-949) to (10-1423) Physical Damage",
-      "Fires (10-13) Projectiles",
-      " ",
-      " "
+      "Fires an arc of knives outwards in front of the caster which deal physical damage."
     ]
   },
   {
@@ -2713,13 +2538,7 @@
       "Duration"
     ],
     "Skill Gem Description": [
-      "Deals (7-949) to (10-1423) Physical Damage",
-      "Base duration is 6.00 seconds",
-      "Fires (6-8) Projectiles",
-      "Each Projectile fired remains in the ground as a Lingering Blade",
-      "Maximum 40 Lingering Blades can be left in the ground at a time",
-      " ",
-      " "
+      "Fires an arc of knives down into the ground in front of the caster which deal physical damage.\nCannot be supported by Volley."
     ]
   },
   {
@@ -2732,11 +2551,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (7-949) to (10-1423) Physical Damage",
-      "Fires (12-16) Projectiles",
-      "Fires Projectiles in a circle",
-      " ",
-      " "
+      "Fires a circle of knives outwards around the caster which deal physical damage."
     ]
   },
   {
@@ -2800,13 +2615,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (4-437) to (6-655) Physical Damage",
-      "Trap lasts 4 seconds",
-      "50% of Physical Damage Converted to Fire Damage",
-      "Causes (3-7) smaller explosions",
-      "Smaller explosions have between 30% reduced and 30% increased base radius at random",
-      " ",
-      " "
+      "Throws a trap that creates an explosion when triggered, dealing spell damage in an area around it. A number of smaller explosions occur within a secondary area around the trap in quick succession after the first."
     ]
   },
   {
@@ -2820,12 +2629,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (13-1478) to (19-2216) Physical Damage",
-      "Trap lasts 4 seconds",
-      "50% increased Stun Duration on enemies",
-      "30% less Trap Throwing Speed",
-      " ",
-      " "
+      "Throws a trap that creates a large explosion when triggered, dealing spell damage in an area around it."
     ]
   },
   {
@@ -2840,13 +2644,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (5-568) to (7-851) Physical Damage",
-      "Trap lasts 4 seconds",
-      "50% of Physical Damage Converted to Fire Damage",
-      "Causes (3-7) smaller explosions",
-      "Smaller explosions have between 30% reduced and 30% increased base radius at random",
-      " ",
-      " "
+      "Throws a trap that creates an explosion when triggered, dealing spell damage in an area around it. A number of smaller explosions occur within a secondary area around the trap in quick succession after the first."
     ]
   },
   {
@@ -2967,12 +2765,7 @@
       "Cold"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Cold Damage",
-      "Fires (5-8) Projectiles",
-      "60% of Physical Damage Converted to Cold Damage",
-      "+(1.8-2.1) metres to Melee Strike Range",
-      " ",
-      " "
+      "Attack enemies with increased range, releasing icy blades from the first enemy hit which fly at other enemies. Requires a Melee Weapon."
     ]
   },
   {
@@ -2988,14 +2781,7 @@
       "Duration"
     ],
     "Skill Gem Description": [
-      "Base duration is 3.00 seconds",
-      "Deals (8-2787) Base Cold Damage per second",
-      "-(7-2432) to -(10-3648) Added Cold Damage",
-      "This Skill's Area of Effect cannot be modified",
-      "60% of Physical Damage Converted to Cold Damage",
-      "+5 metres to Melee Strike Range",
-      " ",
-      " "
+      "Attack enemies with greatly increased range, creating a chilling area that deals cold damage over time if it hits. Requires a Melee Weapon."
     ]
   },
   {
@@ -3010,14 +2796,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "50% of Physical Damage Converted to Lightning Damage",
-      "(1-9) to (5-179) Added Lightning Damage",
-      "Fires 3 Arrows",
-      "+(0-0.5) metres to radius",
-      "Increases and Reductions to Projectile Speed also apply to",
-      "this Skill's Area of Effect",
-      " ",
-      " "
+      "Fire a trio of electrical arrows that quickly dissipate, vanishing shortly after being loosed. The arrows are fired with such force that they create a burst of lightning, damaging enemies in a cone in front of you."
     ]
   },
   {
@@ -3031,10 +2810,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "50% of Physical Damage Converted to Lightning Damage",
-      "(1-9) to (5-179) Added Lightning Damage",
-      " ",
-      " "
+      "Create a burst of lightning from your Bow, firing no arrows but damaging enemies in a cone in front of you."
     ]
   },
   {
@@ -3049,11 +2825,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "50% of Physical Damage Converted to Lightning Damage",
-      "(1-9) to (5-179) Added Lightning Damage",
-      "Fires 3 Arrows",
-      " ",
-      " "
+      "Fire a trio of electrical arrows that quickly dissipate, vanishing shortly after being loosed. If the arrows' flight is stopped by colliding with a target, they create a burst of lightning, damaging enemies in a cone behind the target"
     ]
   },
   {
@@ -3137,11 +2909,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "(2-75) to (3-113) Added Cold Damage",
-      "60% of Physical Damage Converted to Cold Damage",
-      "Chills Enemies as though dealing (100-195)% more Damage",
-      " ",
-      " "
+      "Fires an arrow that converts some physical damage to cold on its target and converts all physical damage to cold in a cone behind that target."
     ]
   },
   {
@@ -3799,8 +3567,7 @@
       "Projectile"
     ],
     "Skill Gem Description": [
-      " ",
-      " "
+      "Throws a spectral copy of your melee weapon. It flies out and then returns to you, in a spinning attack that damages enemies in its path."
     ]
   },
   {
@@ -3812,9 +3579,7 @@
       "Projectile"
     ],
     "Skill Gem Description": [
-      "30% reduced Projectile Deceleration",
-      " ",
-      " "
+      "Throws an intangible spectral copy of your melee weapon. It flies out and then becomes tangible as it returns to you, in a spinning attack that only hits and damages enemies while returning."
     ]
   },
   {
@@ -3828,10 +3593,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "(1-56) to (2-85) Added Attack Physical Damage",
-      "Fires (5-9) Arrows",
-      " ",
-      " "
+      "Fires multiple arrows at different targets."
     ]
   },
   {
@@ -3844,12 +3606,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Modifiers to number of Projectiles instead apply to",
-      "the number of targets Projectile Splits towards",
-      "Projectiles Split towards (3-6) targets",
-      "Projectiles can Split without hitting a target",
-      " ",
-      " "
+      "Fires an arrow that splits to hit different targets."
     ]
   },
   {
@@ -3863,14 +3620,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "(1-101) to (2-151) Added Attack Physical Damage",
-      "Modifiers to number of Projectiles instead apply to",
-      "the number of targets Projectile Splits towards",
-      "Projectiles Split towards (2-5) targets",
-      "40% chance to Impale Enemies on Hit",
-      "Projectiles can Split without hitting a target",
-      " ",
-      " "
+      "Fire a single projectile that splits on impact or at the targeted location, dealing area damage when it splits and again when the split projectiles explode at the end of their flight. Requires a Sword or Axe."
     ]
   },
   {
@@ -3884,16 +3634,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "(1-101) to (2-151) Added Attack Physical Damage",
-      "Modifiers to number of Projectiles instead apply to",
-      "the number of targets Projectile Splits towards",
-      "Projectiles Split towards 2 targets",
-      "If you have no Steel Shards, Projectile counts as already having Split",
-      "60% chance to Impale Enemies on Hit",
-      "Projectiles can Split without hitting a target",
-      "Consumes up to 2 Steel Shards",
-      " ",
-      " "
+      "Consume Steel Shards to fire a single projectile that splits on impact or at the targeted location, dealing area damage when it splits and again when the split projectiles explode at the end of their flight. Requires a Sword or Axe. Steel Shards are gained with the Call of Steel Skill."
     ]
   },
   {
@@ -4187,13 +3928,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Adds (3-201) to (4-302) Fire Damage to Attacks against Ignited Enemies",
-      "50% chance to Ignite enemies",
-      "Projectiles Pierce 3 additional Targets",
-      "100% of Physical Damage Converted to Fire Damage",
-      "Can't be Evaded",
-      " ",
-      " "
+      "Fires an arrow that explodes, dealing fire damage to its target and other nearby enemies, with an increased chance of igniting them."
     ]
   },
   {
@@ -4210,15 +3945,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Projectiles Pierce all Targets",
-      "Deals (21.1-4622.5) Base Chaos Damage per second",
-      "Base duration is 6.00 seconds",
-      "Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "60% of Physical Damage Converted to Chaos Damage",
-      "Can't be Evaded",
-      " ",
-      " "
+      "Fires a slow-moving serpentine arrow which deals chaos damage while piercing enemies, and leaves a trail of caustic ground. Enemies standing on the caustic ground take chaos damage over time."
     ]
   },
   {
@@ -4266,15 +3993,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Base duration is 6.00 seconds",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "Doubles have (0-57)% increased Movement Speed",
-      "Can't be Evaded",
-      "25% chance to cause Bleeding",
-      "Adds (3-113) to (5-169) Physical Damage against Bleeding Enemies",
-      "Maximum 8 Summoned Doubles",
-      " ",
-      " "
+      "Performs two fast strikes with a melee weapon, each of which summons a double of you for a duration to continuously attack monsters in this fashion."
     ]
   },
   {
@@ -4337,17 +4056,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Base duration is 6.00 seconds",
-      "(2-75) to (3-113) Added Cold Damage",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "60% of Physical Damage Converted to Cold Damage",
-      "Maximum 6 Summoned Mirage Sharpshooters",
-      "Summons 6 Mirage Sharpshooters which use this Skill",
-      "Mirage Sharpshooters fire at your target when you use Ice Shot",
-      "Modifiers to number of Projectiles do not apply to",
-      "this Skill when used by Mirage Sharpshooters",
-      " ",
-      " "
+      "Fires an arrow that converts some physical damage to cold on its target and converts all physical damage to cold in a cone behind that target. When you use this skill, it summons a squad of Mirage Sharpshooters for a duration. Cannot be used by Totems, Traps, or Mines."
     ]
   },
   {
@@ -4438,10 +4147,7 @@
       "Vaal"
     ],
     "Skill Gem Description": [
-      "Fires 8 Projectiles in each of two mirrored spirals",
-      "Can't be Evaded",
-      " ",
-      " "
+      "Throws several spectral copies of your melee weapon. They fly out and then return to you, in a spinning attack that damages enemies in their path."
     ]
   },
   {
@@ -4498,14 +4204,7 @@
       "Chaos"
     ],
     "Skill Gem Description": [
-      "30% less Attack Speed if Dual Wielding",
-      "Each Weapon Hits separately if Dual Wielding, dealing 20% less Damage",
-      "Base duration is 4.00 seconds",
-      "(5-169) to (7-254) Added Chaos Damage",
-      "60% of Physical Damage Converted to Chaos Damage",
-      "60% chance to Poison on Hit",
-      " ",
-      " "
+      "Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, will strike with both weapons. Requires a claw, dagger or sword."
     ]
   },
   {
@@ -4520,14 +4219,7 @@
       "Chaos"
     ],
     "Skill Gem Description": [
-      "Base duration is 2.00 seconds",
-      "(5-169) to (7-254) Added Chaos Damage",
-      "60% of Physical Damage Converted to Chaos Damage",
-      "60% chance to Poison on Hit",
-      "200% more Damage with Poison",
-      "Cannot inflict Poison on Poisoned Enemies",
-      " ",
-      " "
+      "Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, deals the damage of both weapons in one strike. Requires a claw, dagger or sword."
     ]
   },
   {
@@ -4867,15 +4559,7 @@
       "Duration"
     ],
     "Skill Gem Description": [
-      "Deals (3.9-283.9) Base Chaos Damage per second",
-      "Base duration is 2.00 seconds",
-      "Base secondary duration is 1.00 seconds",
-      "Modifiers to Spell Damage apply to this Skill's Damage Over Time effect",
-      "+(0-0.6) metres to radius",
-      "80% reduced Movement Speed",
-      "Debuff can have up to 20 layers of Damage",
-      " ",
-      " "
+      "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a shorter secondary duration, slowing their movement. Continued channelling adds layers of damage to the debuff, each with their own duration."
     ]
   },
   {
@@ -4890,16 +4574,7 @@
       "Duration"
     ],
     "Skill Gem Description": [
-      "Deals (3.9-283.9) Base Chaos Damage per second",
-      "Base duration is 1.00 seconds",
-      "Base secondary duration is 3.00 seconds",
-      "Modifiers to Spell Damage apply to this Skill's Damage Over Time effect",
-      "+(0-0.6) metres to radius",
-      "80% reduced Movement Speed",
-      "Debuff can have up to 20 layers of Damage",
-      "80% reduced Life Regeneration rate",
-      " ",
-      " "
+      "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a longer secondary duration, slowing their movement and reducing their life regeneration rate. Continued channelling adds layers of damage to the debuff, each with their own duration."
     ]
   },
   {
@@ -4914,15 +4589,7 @@
       "Duration"
     ],
     "Skill Gem Description": [
-      "Deals (8.5-612.1) Base Chaos Damage per second",
-      "Base duration is 4.00 seconds",
-      "Base secondary duration is 1.00 seconds",
-      "Modifiers to Spell Damage apply to this Skill's Damage Over Time effect",
-      "+(0-0.6) metres to radius",
-      "80% reduced Movement Speed",
-      "Debuff can have up to 5 layers of Damage",
-      " ",
-      " "
+      "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a shorter secondary duration, slowing their movement. Continued channelling adds layers of damage to the debuff, each with their own duration. The damaging debuff is spread by Contagion."
     ]
   },
   {
@@ -5433,11 +5100,7 @@
       "Fire"
     ],
     "Skill Gem Description": [
-      "Deals (9-1640) to (14-2460) Fire Damage",
-      "25% chance to Ignite enemies",
-      "Base radius is (0.9-1.4) metres",
-      " ",
-      " "
+      "Unleashes a ball of fire towards a target which explodes, damaging nearby foes."
     ]
   },
   {
@@ -5662,12 +5325,7 @@
       "Cold"
     ],
     "Skill Gem Description": [
-      "Deals (8-1458) to (12-2188) Cold Damage",
-      "Projectiles Pierce all Targets",
-      "Projectiles continuously lose Damage, up to 50% less Damage by the time they dissipate",
-      "Projectiles have 25% chance to Freeze, which is lost over the first quarter of their flight",
-      " ",
-      " "
+      "An icy projectile which has a chance to freeze enemies it passes through. The projectile fades quickly, reducing damage and freezing chance until it dissipates."
     ]
   },
   {
@@ -5799,10 +5457,7 @@
       "Cold"
     ],
     "Skill Gem Description": [
-      "Deals (9-1594) to (13-2392) Cold Damage",
-      "Projectiles Pierce all Targets",
-      " ",
-      " "
+      "Fires a slow-moving projectile that pierces through enemies, dealing cold damage."
     ]
   },
   {
@@ -6095,11 +5750,7 @@
       "Projectile"
     ],
     "Skill Gem Description": [
-      "Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at 200% of their value",
-      "Projectile changes direction (5-8) times",
-      "Modifiers which would cause projectiles to Fork instead cause them to change direction additional times",
-      " ",
-      " "
+      "Fire a projectile from your wand that changes direction in a zig-zag pattern at regular intervals or when hitting enemies. Each time it changes direction, a secondary projectile breaks off, flying in the direction it changed away from."
     ]
   },
   {
@@ -6111,12 +5762,7 @@
       "Projectile"
     ],
     "Skill Gem Description": [
-      "Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at 200% of their value",
-      "Projectile changes direction 2 times",
-      "Fires 2 additional Projectiles",
-      "Modifiers which would cause projectiles to Fork instead cause them to change direction additional times",
-      " ",
-      " "
+      "Fire a projectile from your wand that changes direction in a zig-zag pattern at regular intervals or when hitting enemies. Each time it changes direction, a secondary projectile breaks off, flying in the direction it changed away from. Multiple of these projectiles can hit the same target."
     ]
   },
   {
@@ -6203,11 +5849,7 @@
       "Channelling"
     ],
     "Skill Gem Description": [
-      "Deals (1-75) to (6-1420) Lightning Damage",
-      "Releases a Stronger Pulse every 3 Pulses",
-      "Stronger Pulses always Critically Strike",
-      " ",
-      " "
+      "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of you."
     ]
   },
   {
@@ -6222,13 +5864,7 @@
       "Channelling"
     ],
     "Skill Gem Description": [
-      "Deals (1-33) to (2-629) Lightning Damage",
-      "Releases a Stronger Pulse every 6 Pulses",
-      "Stronger Pulses always Critically Strike",
-      "Stronger Pulses have 150% more Area of Effect",
-      "Stronger Pulses deal 500% more Damage with Hits and Ailments",
-      " ",
-      " "
+      "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of you."
     ]
   },
   {
@@ -6242,10 +5878,7 @@
       "Channelling"
     ],
     "Skill Gem Description": [
-      "Deals (1-86) to (6-1633) Lightning Damage",
-      "Gains +1 metre to radius per second while Channelling, up to a maximum of +2 metres",
-      " ",
-      " "
+      "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a growing semicircular area in front of you."
     ]
   },
   {
@@ -6422,14 +6055,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (8-1324) to (11-1986) Physical Damage",
-      "Base duration is 4.00 seconds",
-      "+(0-0.2) metres to radius",
-      "+(0-0.6) metres to radius of Consecrated Ground",
-      "50% of Physical Damage Converted to Fire Damage",
-      "Shockwave deals 25% less Damage",
-      " ",
-      " "
+      "A wave of divine fire deals damage in a line, then creates Consecrated Ground and deals damage in an area around the targeted location. A larger shockwave then expands outwards, damaging enemies standing on Consecrated Ground that were not already hit."
     ]
   },
   {
@@ -6444,14 +6070,7 @@
       "Physical"
     ],
     "Skill Gem Description": [
-      "Deals (5-860) to (7-1291) Physical Damage",
-      "Base duration is 4.00 seconds",
-      "+(0-0.2) metres to radius",
-      "+(0-0.6) metres to radius of Consecrated Ground",
-      "50% of Physical Damage Converted to Fire Damage",
-      "Shockwave deals 90% more Damage",
-      " ",
-      " "
+      "A wave of divine fire deals damage in a line, then creates Consecrated Ground and deals damage in an area around the targeted location. A larger shockwave then expands outwards, damaging enemies standing on Consecrated Ground that were not already hit."
     ]
   },
   {
@@ -6549,10 +6168,7 @@
       "Minion"
     ],
     "Skill Gem Description": [
-      "Maximum (3-6) Raised Zombies",
-      "Minions have (0-38)% more Maximum Life",
-      " ",
-      " "
+      "Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee strike."
     ]
   },
   {
@@ -6564,10 +6180,7 @@
       "Minion"
     ],
     "Skill Gem Description": [
-      "Does not require a corpse",
-      "Minions' Hits can't be Evaded",
-      " ",
-      " "
+      "Raises necromantic energies into the sky above a targeted location, where they coalese into a zombie minion. The minion then attacks by falling to the ground, causing an impact that deals damage in an area and kills the zombie."
     ]
   },
   {
@@ -6579,11 +6192,7 @@
       "Minion"
     ],
     "Skill Gem Description": [
-      "Maximum (3-6) Raised Zombies",
-      "Raised Zombies' Slam Attack has (0-76)% increased Area of Effect",
-      "Raised Zombies' Slam Attack has (0-76)% increased Cooldown Recovery Rate",
-      " ",
-      " "
+      "Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee strike and an area of effect slam which cannot be evaded."
     ]
   },
   {
@@ -6601,6 +6210,19 @@
   },
   {
     "Skill Gem": [
+      "Righteous Fire of Arcane Devotion"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Engulfs you in magical fire that rapidly burns you and nearby enemies. The effect ends when you have 1 life remaining."
+    ]
+  },
+  {
+    "Skill Gem": [
       "Rolling Magma"
     ],
     "Skill Gem Tags": [
@@ -6611,13 +6233,7 @@
       "Chaining"
     ],
     "Skill Gem Description": [
-      "Deals (9-1245) to (12-1868) Fire Damage",
-      "+(0-0.4) metres to radius",
-      "Chains +(2-3) Times",
-      "Projectiles can Chain when impacting the ground",
-      "Projectiles do not change direction when Chaining",
-      " ",
-      " "
+      "Lob a fiery orb that deals area damage as it hits the ground. The skill chains, bouncing forward to deal damage multiple times."
     ]
   },
   {
@@ -6759,11 +6375,7 @@
       "Lightning"
     ],
     "Skill Gem Description": [
-      "Deals (1-104) to (28-1983) Lightning Damage",
-      "Base duration is 2.00 seconds",
-      "Fires (4-8) Projectiles",
-      " ",
-      " "
+      "Launches unpredictable sparks that move randomly until they hit an enemy or expire."
     ]
   },
   {
@@ -6777,12 +6389,21 @@
       "Lightning"
     ],
     "Skill Gem Description": [
-      "Deals (2-111) to (30-2113) Lightning Damage",
-      "Base duration is 2.00 seconds",
-      "Fires 4 Projectiles",
-      "Fires Projectiles in a circle",
-      " ",
-      " "
+      "Launches unpredictable sparks in all directions that move randomly until they hit an enemy or expire."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Spark of Unpredictability"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Projectile",
+      "Duration",
+      "Lightning"
+    ],
+    "Skill Gem Description": [
+      "Launches unpredictable sparks with that move randomly with large differences in speed and distance until they hit an enemy or expire."
     ]
   },
   {
@@ -6920,14 +6541,7 @@
       "Nova"
     ],
     "Skill Gem Description": [
-      "Deals (3-367) to (8-1102) Lightning Damage",
-      "Mine lasts 5 seconds",
-      "Base Mine Detonation Time is 0.25 seconds",
-      "+(0-0.5) metres to radius",
-      "Each Mine applies 3% increased Damage Taken to Enemies near it, up",
-      "to a maximum of 150%",
-      " ",
-      " "
+      "Throws a mine that deals damage in an area when detonated."
     ]
   },
   {
@@ -7220,17 +6834,7 @@
       "Channelling"
     ],
     "Skill Gem Description": [
-      "Deals (4.3-524.7) Base Chaos Damage per second",
-      "Base duration is 6.00 seconds",
-      "Base secondary duration is 3.00 seconds",
-      "Modifiers to Spell Damage apply to this Skill's Damage Over Time effect",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "+(0-0.9) metres to radius",
-      "80% reduced Movement Speed",
-      "Debuff can have up to 20 layers of Damage",
-      "Hindered Enemies take 20% increased Chaos Damage",
-      " ",
-      " "
+      "Apply a powerful debuff to enemies around you which deals chaos damage over time. Then applies two additional layers in a larger area, growing greatly in size each time. Enemies are also substantially hindered for a shorter secondary duration, slowing their movement."
     ]
   },
   {
@@ -7290,12 +6894,7 @@
       "Fire"
     ],
     "Skill Gem Description": [
-      "Deals (9-1095) to (14-1643) Fire Damage",
-      "Fires 32 Projectiles in a spiral",
-      "25% chance to Ignite enemies",
-      "Base radius is (0.9-1.4) metres",
-      " ",
-      " "
+      "Launches a series of fireballs in a spiral around the caster."
     ]
   },
   {
@@ -7417,12 +7016,7 @@
       "Lightning"
     ],
     "Skill Gem Description": [
-      "Deals (1-24) to (11-454) Lightning Damage",
-      "Base duration is 2.00 seconds",
-      "Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
-      "Fires Projectiles in random directions",
-      " ",
-      " "
+      "Continuously launches unpredictable sparks in all directions that move randomly until they hit an enemy or expire."
     ]
   },
   {
