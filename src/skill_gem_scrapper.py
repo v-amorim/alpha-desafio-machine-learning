@@ -4,9 +4,28 @@ import json
 from concurrent.futures import as_completed
 from concurrent.futures import ThreadPoolExecutor
 
+import console_colors as cc
 import requests
 from lxml import html
 from tqdm import tqdm
+
+
+class UserInterface:
+    @staticmethod
+    def display_color_options(skill_gem_colors):
+        for key, value in skill_gem_colors.items():
+            print(f'{cc.blue_var(key)}: {value}')
+
+    @staticmethod
+    def get_user_choice(skill_gem_colors):
+        print('Enter the number corresponding to the desired skill gem color: ', end='')
+        user_choice = cc.cyan_input()
+
+        while user_choice not in skill_gem_colors:
+            print(f'{cc.yellow_warning()} Enter the number corresponding to the desired skill gem color: ', end='')
+            user_choice = cc.cyan_input()
+
+        return skill_gem_colors[user_choice]
 
 
 class SkillGemScraper:
@@ -25,7 +44,7 @@ class SkillGemScraper:
         if response.status_code == 200:
             return html.fromstring(response.content)
 
-        print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
+        print(f'{cc.red_error()} Failed to retrieve the webpage. Status code: {response.status_code}')
         return None
 
     def scrape_skill_gem_names(self) -> None:
@@ -69,7 +88,7 @@ class SkillGemScraper:
                 'Skill Gem Description': description
             }
 
-        print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
+        print(f'{cc.red_error()} Failed to retrieve the webpage. Status code: {response.status_code}')
         return None
 
     def scrape_all_skill_gem_details(self) -> list[dict[str, list[str]]]:
@@ -77,7 +96,7 @@ class SkillGemScraper:
         self.scrape_skill_gem_names()
 
         with ThreadPoolExecutor() as executor, tqdm(
-                total=len(self.skill_gems), desc='Scraping'
+                total=len(self.skill_gems), desc='Scraping', colour='green'
         ) as pbar:
             futures = {
                 executor.submit(self.scrape_skill_gem_details, skill_gem): skill_gem for skill_gem in self.skill_gems}
@@ -93,38 +112,27 @@ class SkillGemScraper:
         return results
 
 
-if __name__ == '__main__':
-    # Create an instance of the class and perform the scraping
+def main():
     skill_gem_colors = {
-        1: 'Red Skill Gems',
-        2: 'Green Skill Gems',
-        3: 'Blue Skill Gems',
-        4: 'All Skill Gems'
+        '1': 'Red Skill Gems',
+        '2': 'Green Skill Gems',
+        '3': 'Blue Skill Gems',
+        '4': 'All Skill Gems'
     }
 
-    # Display color options to the user
-    for key, value in skill_gem_colors.items():
-        print(f'{key}: {value}')
+    UserInterface.display_color_options(skill_gem_colors)
+    selected_color = UserInterface.get_user_choice(skill_gem_colors)
 
-    # Get user input for skill gem color choice
-    user_choice = int(input('Enter the number corresponding to the desired skill gem color: '))
+    scraper = SkillGemScraper(skill_gem_color=selected_color)
+    skill_gem_details = scraper.scrape_all_skill_gem_details()
 
-    # Validate user input
-    while user_choice not in skill_gem_colors:
-        print('Invalid choice.')
-        user_choice = int(input('Enter the number corresponding to the desired skill gem color: '))
+    result_json = json.dumps(skill_gem_details, indent=2)
 
-    selected_color = skill_gem_colors[user_choice]
-
-    # Create an instance of the class with the selected color
-    scraper: SkillGemScraper = SkillGemScraper(skill_gem_color=selected_color)
-    skill_gem_details: list[dict[str, list[str]]] = scraper.scrape_all_skill_gem_details()
-
-    # Convert the result to JSON
-    result_json: str = json.dumps(skill_gem_details, indent=2)
-
-    # Save the JSON to a file
     with open('skill_gem_details.json', 'w', encoding='utf8') as json_file:
         json_file.write(result_json + '\n')
 
-    print("Scraping completed. Result saved to 'skill_gem_details.json'")
+    print(f"{cc.green_done()} Scraping completed. Result saved to {cc.blue_var('skill_gem_details.json')}")
+
+
+if __name__ == '__main__':
+    main()
