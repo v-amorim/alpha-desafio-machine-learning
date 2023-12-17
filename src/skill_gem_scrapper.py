@@ -45,7 +45,7 @@ class SkillGemScraper:
         skill_gem_url: str = self.base_url + skill_gem
         name_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[1]/text()'
         tags_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[1]/a/text()'
-        description_xpath = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[@class="group tc -gemdesc"]/text()'
+        description_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[@class="group tc -gemdesc"]/text()'
 
         response = requests.get(skill_gem_url)
 
