@@ -51,9 +51,9 @@ class SkillGemScraper:
 
         if response.status_code == 200:
             tree = html.fromstring(response.content)
-            description: list[str] = tree.xpath(description_xpath)
-            tags: list[str] = tree.xpath(tags_xpath)
             name: list[str] = tree.xpath(name_xpath)
+            tags: list[str] = tree.xpath(tags_xpath)
+            description: list[str] = tree.xpath(description_xpath)
 
             return {
                 'Skill Gem': name,
