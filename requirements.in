@@ -1,8 +1,10 @@
 autopep8
 beautifulsoup4
 flake8
+lxml
 pip-tools
 pre-commit
 python-dotenv
+requests
 tqdm
 virtualenv
