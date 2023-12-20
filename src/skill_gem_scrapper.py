@@ -68,25 +68,50 @@ class SkillGemScraper:
             if tree is not None:
                 self.skill_gems.extend(tree.xpath(xpath))
 
+    def get_non_empty_xpath(self, tree, xpaths):
+        for xpath in xpaths:
+            result = tree.xpath(xpath)
+            if result:
+                return result
+        return None
+
     def scrape_skill_gem_details(self, skill_gem: str) -> dict[str, list[str]] | None:
         """Scrape details for a given skill gem."""
         skill_gem_url: str = self.base_url + skill_gem
-        name_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[1]/text()'
-        tags_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[1]/a/text()'
-        description_xpath: str = f'{self.base_xpath}/p[1]/span/span[1]/span[2]/span[@class="group tc -gemdesc"]/text()'
+
+        name_xpaths: list[str] = [
+            f'{self.base_xpath}/div[1]/span/span[1]/text()',
+            f'{self.base_xpath}/div[2]/span[1]/span[1]/text()',
+            f'{self.base_xpath}/div[3]/span/span[1]/text()',
+            f'{self.base_xpath}/div[3]/span[1]/span[1]/text()',
+        ]
+
+        tags_xpaths: list[str] = [
+            f'{self.base_xpath}/div[1]/span/span[2]/span[1]/a/text()',
+            f'{self.base_xpath}/div[2]/span[1]/span[2]/span[1]/a/text()',
+            f'{self.base_xpath}/div[3]/span/span[2]/span[1]/a/text()',
+            f'{self.base_xpath}/div[3]/span[1]/span[2]/span[1]/a/text()',
+        ]
+
+        description_xpaths: list[str] = [
+            f'{self.base_xpath}/div[1]/span/span[2]/span[@class="group tc -gemdesc"]/text()',
+            f'{self.base_xpath}/div[2]/span[1]/span[2]/span[@class="group tc -gemdesc"]/text()',
+            f'{self.base_xpath}/div[3]/span/span[2]/span[@class="group tc -gemdesc"]/text()',
+            f'{self.base_xpath}/div[3]/span[1]/span[2]/span[@class="group tc -gemdesc"]/text()',
+        ]
 
         response = requests.get(skill_gem_url)
 
         if response.status_code == 200:
             tree = html.fromstring(response.content)
-            name: list[str] = tree.xpath(name_xpath)
-            tags: list[str] = tree.xpath(tags_xpath)
-            description: list[str] = tree.xpath(description_xpath)
+            skill_gem_name = self.get_non_empty_xpath(tree, name_xpaths)
+            skill_gem_tags = self.get_non_empty_xpath(tree, tags_xpaths)
+            skill_gem_description = self.get_non_empty_xpath(tree, description_xpaths)
 
             return {
-                'Skill Gem': name,
-                'Skill Gem Tags': tags,
-                'Skill Gem Description': description
+                'Skill Gem': skill_gem_name,
+                'Skill Gem Tags': skill_gem_tags,
+                'Skill Gem Description': skill_gem_description
             }
 
         print(f'{cc.red_error()} Failed to retrieve the webpage. Status code: {response.status_code}')
