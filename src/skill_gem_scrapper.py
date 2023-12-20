@@ -39,6 +39,16 @@ class SkillGemScraper:
         self.skill_gems: list[str] = []
         self.skill_gem_color: str = skill_gem_color
 
+    def format_skill_gem_details(self, skill_gem_name, skill_gem_tags, skill_gem_description):
+        formatted_tags = ', '.join(skill_gem_tags)
+        formatted_description = '\n'.join(skill_gem_description)
+
+        formatted_details = f'{skill_gem_name}:\n' \
+                            f'Tags: {formatted_tags}.\n' \
+                            f'Description: {formatted_description}'
+
+        return formatted_details
+
     def get_parsed_tree(self, url: str) -> html.HtmlElement | None:
         """Fetch and parse HTML content."""
         response = requests.get(url)
@@ -124,16 +134,18 @@ class SkillGemScraper:
         with ThreadPoolExecutor() as executor, tqdm(
                 total=len(self.skill_gems), desc='Scraping', colour='green'
         ) as pbar:
-            futures = {
-                executor.submit(self.scrape_skill_gem_details, skill_gem): skill_gem for skill_gem in self.skill_gems}
+            results = []
 
-            for _ in as_completed(futures):
+            for skill_gem in self.skill_gems:
+                result = self.scrape_skill_gem_details(skill_gem)
+                if result:
+                    formatted_details = self.format_skill_gem_details(
+                        result['Skill Gem'][0],
+                        result['Skill Gem Tags'],
+                        result['Skill Gem Description']
+                    )
+                    results.append(formatted_details)
                 pbar.update(1)
-
-            results: list[dict[str, list[str]] | None] = [future.result() for future in futures]
-
-        # Filter out None results (failed requests)
-        results = [result for result in results if result is not None]
 
         return results
 
@@ -152,7 +164,6 @@ def main():
     scraper = SkillGemScraper(skill_gem_color=selected_color)
     skill_gem_details = scraper.scrape_all_skill_gem_details()
 
-    result_json = json.dumps(skill_gem_details, indent=2)
     result_folder_name = 'skill_gem_data'
     result_json_path = f'{result_folder_name}/skill_gem_details.json'
 
@@ -161,7 +172,7 @@ def main():
         os.makedirs(result_folder_name)
 
     with open(result_json_path, 'w', encoding='utf8') as json_file:
-        json_file.write(result_json + '\n')
+        json.dump(skill_gem_details, json_file, indent=2)
 
     print(f'{cc.green_done()} Scraping completed. Result saved to {cc.blue_var(result_json_path)}')
 
