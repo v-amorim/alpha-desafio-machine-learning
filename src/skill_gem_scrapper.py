@@ -49,6 +49,14 @@ class SkillGemScraper:
 
         return formatted_details
 
+    @staticmethod
+    def get_non_empty_xpath(tree, xpaths):
+        for xpath in xpaths:
+            result = tree.xpath(xpath)
+            if result:
+                return result
+        return None
+
     def get_parsed_tree(self, url: str) -> html.HtmlElement | None:
         """Fetch and parse HTML content."""
         response = self.session.get(url)
@@ -67,7 +75,7 @@ class SkillGemScraper:
         }
 
         if self.skill_gem_color == 'All Skill Gems':
-            xpaths = list(category_xpaths.values())
+            xpaths = [f'{self.base_xpath}/div[{i}]/table/tbody/tr[*]/td[1]/span/span/a/text()' for i in range(2, 5)]
         elif self.skill_gem_color in category_xpaths:
             xpaths = [category_xpaths[self.skill_gem_color]]
         else:
@@ -77,13 +85,6 @@ class SkillGemScraper:
         if tree is not None:
             for xpath in xpaths:
                 self.skill_gems.extend(tree.xpath(xpath))
-
-    def get_non_empty_xpath(self, tree, xpaths):
-        for xpath in xpaths:
-            result = tree.xpath(xpath)
-            if result:
-                return result
-        return None
 
     def scrape_skill_gem_details(self, skill_gem: str) -> dict[str, list[str]] | None:
         """Scrape details for a given skill gem."""
@@ -127,7 +128,7 @@ class SkillGemScraper:
         print(f'{cc.red_error()} Failed to retrieve the webpage. Status code: {response.status_code}')
         return None
 
-    def scrape_all_skill_gem_details(self) -> list[dict[str, list[str]]]:
+    def scrape_all_skill_gems(self) -> tuple[list[str], list[dict[str, list[str]]]]:
         """Scrape details for all skill gems using multithreading."""
         self.scrape_skill_gem_names()
 
@@ -155,6 +156,13 @@ class SkillGemScraper:
 
         return formatted_results, original_results
 
+    def sort_skill_gem_results(self, formatted_results, original_results):
+        """Sort skill gem results based on the original order of skill gems."""
+        formatted_results.sort(key=lambda x: self.skill_gems.index(x.split(':')[0]))
+        original_results.sort(key=lambda x: self.skill_gems.index(x['Skill Gem'][0]))
+
+        return formatted_results, original_results
+
 
 def main():
     skill_gem_colors = {
@@ -168,11 +176,13 @@ def main():
     selected_color = UserInterface.get_user_choice(skill_gem_colors)
 
     scraper = SkillGemScraper(skill_gem_color=selected_color)
-    formatted_results, original_results = scraper.scrape_all_skill_gem_details()
+
+    formatted_results, original_results = scraper.scrape_all_skill_gems()
+    formatted_results, original_results = scraper.sort_skill_gem_results(formatted_results, original_results)
 
     result_folder_name = 'skill_gem_data'
-    formatted_json_path = f'{result_folder_name}/skill_gems_treated.json'
-    original_json_path = f'{result_folder_name}/skill_gem_details.json'
+    formatted_json_path = f'{result_folder_name}/formatted_skill_gem_details.json'
+    original_json_path = f'{result_folder_name}/original_skill_gem_details.json'
 
     # Check if the folder exists, and create it if not
     if not os.path.exists(result_folder_name):
