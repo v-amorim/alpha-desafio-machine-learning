@@ -944,7 +944,7 @@
       "Melee"
     ],
     "Skill Gem Description": [
-      "Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times.\nRequires a Sword or Axe."
+      "Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times. Requires a Sword or Axe."
     ]
   },
   {
@@ -2538,7 +2538,7 @@
       "Duration"
     ],
     "Skill Gem Description": [
-      "Fires an arc of knives down into the ground in front of the caster which deal physical damage.\nCannot be supported by Volley."
+      "Fires an arc of knives down into the ground in front of the caster which deal physical damage. Cannot be supported by Volley."
     ]
   },
   {
@@ -3472,7 +3472,7 @@
       "Bow"
     ],
     "Skill Gem Description": [
-      "Summons a ballista totem that attacks with forking arrows.\nRequires a Bow."
+      "Summons a ballista totem that attacks with forking arrows. Requires a Bow."
     ]
   },
   {

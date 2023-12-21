@@ -107,6 +107,7 @@ class SkillGemScraper:
             skill_gem_name = self.get_non_empty_xpath(tree, name_xpaths)
             skill_gem_tags = self.get_non_empty_xpath(tree, tags_xpaths)
             skill_gem_description = self.get_non_empty_xpath(tree, description_xpaths)
+            skill_gem_description = [desc.replace('\n', ' ') for desc in skill_gem_description]
 
             return {
                 'Skill Gem': skill_gem_name,
