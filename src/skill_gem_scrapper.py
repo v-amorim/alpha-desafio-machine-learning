@@ -137,6 +137,22 @@ class SkillGemScraper:
 
         return results
 
+    def format_skill_gem_details(self, skill_gem_details: list[dict[str, list[str]]]) -> str:
+        """Format skill gem details for the desired output."""
+        formatted_output = ''
+        for skill_gem_detail in skill_gem_details:
+            skill_gem_name = skill_gem_detail.get('Skill Gem', [''])[0]
+            skill_gem_tags = ', '.join(skill_gem_detail.get('Skill Gem Tags', []))
+            skill_gem_description = skill_gem_detail.get('Skill Gem Description', [''])[0]
+
+            formatted_output += (
+                f'Skill Gem: {skill_gem_name}; '
+                f'Skill Gem Tags: {skill_gem_tags}; '
+                f'Skill Gem Details: {skill_gem_description};\n'
+            )
+
+        return formatted_output
+
 
 def main():
     skill_gem_colors = {
@@ -150,20 +166,23 @@ def main():
     selected_color = UserInterface.get_user_choice(skill_gem_colors)
 
     scraper = SkillGemScraper(skill_gem_color=selected_color)
-    skill_gem_details = scraper.scrape_all_skill_gem_details()
+    skill_gem_details_raw = scraper.scrape_all_skill_gem_details()
+    skill_gem_details_treated = scraper.format_skill_gem_details(skill_gem_details_raw)
 
-    result_json = json.dumps(skill_gem_details, indent=2)
-    result_folder_name = 'skill_gem_data'
-    result_json_path = f'{result_folder_name}/skill_gem_details.json'
+    folder_name = 'skill_gem_data'
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
 
-    # Check if the folder exists, and create it if not
-    if not os.path.exists(result_folder_name):
-        os.makedirs(result_folder_name)
+    raw_json_path = f'{folder_name}/skill_gem_details.json'
+    with open(raw_json_path, 'w', encoding='utf8') as json_file:
+        raw_json = json.dumps(skill_gem_details_raw, indent=2)
+        json_file.write(raw_json + '\n')
+        print(f'{cc.green_done()} Raw data saved to {cc.blue_var(raw_json_path)}')
 
-    with open(result_json_path, 'w', encoding='utf8') as json_file:
-        json_file.write(result_json + '\n')
-
-    print(f'{cc.green_done()} Scraping completed. Result saved to {cc.blue_var(result_json_path)}')
+    treated_file_path = f'{folder_name}/skill_gem_details_treated.txt'
+    with open(treated_file_path, 'w', encoding='utf8') as text_file:
+        text_file.write(skill_gem_details_treated)
+        print(f'{cc.green_done()} Formatted data saved to {cc.blue_var(treated_file_path)}')
 
 
 if __name__ == '__main__':
