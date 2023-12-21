@@ -1,122 +1,1764 @@
 [
-  "Absolution:\nTags: Spell, Minion, Duration, Physical, Lightning, AoE.\nDescription: Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
-  "Absolution of Inspiring:\nTags: Spell, Minion, Duration, Physical, Lightning, AoE.\nDescription: Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
-  "Ancestral Cry:\nTags: Warcry, AoE, Duration.\nDescription: Performs a warcry, taunting all nearby enemies to attack the user and exerting subsequent strike attacks. Grants a buff which gives you bonus armour and melee range.",
-  "Ancestral Protector:\nTags: Attack, Totem, Melee, Strike.\nDescription: Summons an Ancestor Totem which attacks enemies with melee strikes while you're near it. Being near it grants you more attack speed. Requires a Melee Weapon or Unarmed.",
-  "Ancestral Warchief:\nTags: Attack, Totem, AoE, Slam, Melee.\nDescription: Summons an Ancestor Totem which attacks enemies with a powerful slam while you're near it. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed.",
-  "Anger:\nTags: Aura, Spell, AoE, Fire.\nDescription: Casts an aura that adds fire damage to the attacks and spells of you and your allies.",
-  "Animate Guardian:\nTags: Spell, Minion.\nDescription: Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines.",
-  "Animate Guardian of Smiting:\nTags: Spell, Minion, Lightning.\nDescription: Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side using Smite of Divine Judgement, ignoring weapon restrictions. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines.",
-  "Battlemage's Cry:\nTags: Warcry, Critical, Trigger, AoE, Duration.\nDescription: Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which boosts critical strike chance and allows attacks to benefit from increases to spell damage.",
-  "Berserk:\nTags: Spell.\nDescription: Consumes Rage at an accelerating rate to provide a powerful buff, granting more attack damage, attack speed, movement speed, and less damage taken.",
-  "Bladestorm:\nTags: Attack, AoE, Duration, Melee.\nDescription: Perform a spinning attack, damaging enemies around you and creating a bladestorm matching your stance. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe. You are in Blood Stance by default.",
-  "Bladestorm of Uncertainty:\nTags: Attack, AoE, Duration, Melee.\nDescription: Perform a spinning attack, damaging enemies around you and creating a random bladestorm. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe.",
-  "Blood and Sand:\nTags: Spell, Stance.\nDescription: Casts a buff that grants different bonuses to melee skills depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
-  "Boneshatter:\nTags: Attack, Melee, Strike, AoE, Duration, Physical.\nDescription: Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
-  "Boneshatter of Carnage:\nTags: Attack, Melee, Strike, AoE, Physical.\nDescription: Attack enemies with a forceful melee strike. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
-  "Boneshatter of Complex Trauma:\nTags: Attack, Melee, Strike, AoE, Duration, Physical.\nDescription: Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
-  "Chain Hook:\nTags: Attack, AoE, Movement, Melee.\nDescription: When used at range, throws out a chain, pulling you to the enemy hit dealing damage in an area behind them. When close to the enemy, just causes the area damage directly. Requires a One Handed Mace, Sceptre, Sword or Axe.",
-  "Cleave:\nTags: Attack, AoE, Physical, Melee.\nDescription: The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords.",
-  "Cleave of Rage:\nTags: Attack, AoE, Melee.\nDescription: The character swings both their weapons in an arc, damaging monsters in an area in front of them. Requires dual wielding both an Axe and a Sword.",
-  "Consecrated Path:\nTags: Fire, Attack, AoE, Movement, Duration, Slam, Melee.\nDescription: Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Consecrated Path of Endurance:\nTags: Fire, Attack, AoE, Movement, Duration, Slam, Melee.\nDescription: Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. The cooldown can be bypassed by expending an Endurance Charge. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Corrupting Fever:\nTags: Spell, Duration, Physical.\nDescription: Draws out your own blood to power a buff for a duration, letting this skill inflict the Corrupting Blood debuff on enemies you hit, dealing physical damage over time for a short secondary duration. The buff's duration will be refreshed if you spend enough life before it expires.",
-  "Decoy Totem:\nTags: Totem, Spell, AoE.\nDescription: Summons a totem that taunts nearby monsters to attack it.",
-  "Defiance Banner:\nTags: AoE, Spell, Duration, Aura, Physical.\nDescription: Casting once reserves mana to carry a banner which increases the armour and evasion of nearby allies, and reduces the critical strike chance of nearby enemies. Gains stages over time while carrying the banner near enemies. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.",
-  "Determination:\nTags: Aura, Spell, AoE, Physical.\nDescription: Casts an aura that grants armour to you and your allies.",
-  "Devouring Totem:\nTags: Totem, Spell.\nDescription: Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you.",
-  "Dominating Blow:\nTags: Attack, Minion, Duration, Melee, Strike.\nDescription: Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.",
-  "Dominating Blow of Inspiring:\nTags: Attack, Minion, Duration, Melee, Strike.\nDescription: Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.",
-  "Dread Banner:\nTags: AoE, Spell, Duration, Aura, Physical.\nDescription: Casting once reserves mana to carry a banner which makes nearby allies inflict impale with attacks, and lessens the accuracy of nearby enemies. Gain stages by impaling enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.",
-  "Earthquake:\nTags: Attack, AoE, Duration, Slam, Melee.\nDescription: Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Earthquake of Amplification:\nTags: Attack, AoE, Duration, Slam, Melee.\nDescription: Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Earthshatter:\nTags: Attack, AoE, Slam, Duration, Melee.\nDescription: Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. Warcries or other Slam Attacks performed by you or allied players near any spike will cause them to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed.",
-  "Earthshatter of Fragility:\nTags: Attack, AoE, Slam, Duration, Melee.\nDescription: Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. The spikes shatter after a duration, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed.",
-  "Earthshatter of Prominence:\nTags: Attack, AoE, Slam, Duration, Melee.\nDescription: Slam the ground, sending out a rectangular fissure that deals area damage to enemies and thrusts a large spike from the ground where it ends. Warcries or other Slam Attacks performed by you or allied players near the spike will cause it to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed.",
-  "Enduring Cry:\nTags: Warcry, AoE, Duration.\nDescription: Performs a warcry, taunting all nearby enemies to attack the user and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction based on your endurance charges.",
-  "Exsanguinate:\nTags: Spell, Chaining, Physical, Duration.\nDescription: Releases several tendrils of blood from your character, targeting enemies in a narrow angle in front of you. The beams deal physical damage and inflict a physical damage over time debuff to enemies, which can stack up to 3 times. Effects which allow skills to chain can apply to these tendrils.",
-  "Exsanguinate of Transmission:\nTags: Spell, Chaining, Physical, Duration.\nDescription: Releases a tendril of blood from your character, which will target an enemy in front of you, then chain to other enemies. The tendril deals physical damage and inflicts a physical damage over time debuff to enemies, which can stack up to 3 times.",
-  "Flame Link:\nTags: Spell, Duration, Link, Fire.\nDescription: Targets an allied player to apply a buff which links you to them for a duration. While linked, they deal additional fire damage based on your life. If the target dies while linked, you will also die. This skill cannot be triggered, or used by Totems, Traps, or Mines.",
-  "Flesh and Stone:\nTags: Spell, Aura, AoE, Stance.\nDescription: Casts an aura that affects you and nearby enemies differently depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
-  "Frozen Legion:\nTags: Spell, Cold, Attack, AoE, Melee.\nDescription: This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines.",
-  "Frozen Legion of Rallying:\nTags: Spell, Cold, Attack, AoE, Melee.\nDescription: This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines.",
-  "General's Cry:\nTags: Warcry, AoE, Duration.\nDescription: Performs a warcry, taunting nearby enemies to attack the user, and summoning Mirage Warriors from nearby corpses. The Mirage Warriors each use a linked attack skill once before dissipating.",
-  "Glacial Hammer:\nTags: Attack, Melee, Strike, Cold.\nDescription: Hits enemies, converting some of your physical damage to cold damage. If a non-unique enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff.",
-  "Glacial Hammer of Shattering:\nTags: Critical, Attack, Melee, Strike, Cold.\nDescription: Hits enemies, converting some of your physical damage to cold damage. If striking three times in a row, the third strike will be a critical strike. Requires a Mace, Sceptre or Staff.",
-  "Ground Slam:\nTags: Attack, AoE, Slam, Melee.\nDescription: Slams the ground in front of you, creating a wave that travels forward and damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Ground Slam of Earthshaking:\nTags: Attack, AoE, Slam, Melee.\nDescription: Slams the ground in front of you, creating a wide wave that travels forward and damages enemies with an increased chance to stun. Requires a Two Handed Axe, Two Handed Mace, or Staff.",
-  "Heavy Strike:\nTags: Attack, Melee, Strike.\nDescription: Attacks enemies with a forceful blow, knocking them back. Requires a Mace, Sceptre, Axe, Sword or Two-Handed Weapon.",
-  "Herald of Ash:\nTags: Spell, AoE, Fire, Herald, Duration.\nDescription: Grants a buff providing fire damage based on your physical damage. While you have this buff, if you kill an enemy, other enemies near them will be burned based on the overkill damage. The burn inflicted by this skill can only be affected by modifiers to damage over time (burning damage is damage over time).",
-  "Herald of Purity:\nTags: Spell, Herald, Minion, Duration, Physical.\nDescription: Grants a buff which lets you deal more physical damage. When you kill an enemy while you have this buff, this skill will summon a Sentinel of Purity, or refresh the duration and life of an existing one instead if you have the maximum number of them. The Sentinels of Purity have a single-target melee attack and an area melee attack.",
-  "Holy Flame Totem:\nTags: Totem, Spell, Projectile, Fire, Channelling, Physical.\nDescription: Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem.",
-  "Holy Flame Totem of Ire:\nTags: Totem, Spell, Projectile, Fire, Channelling, Physical.\nDescription: Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem.",
-  "Ice Crash:\nTags: Attack, AoE, Cold, Slam, Melee.\nDescription: Slam the ground, damaging enemies in an area around the impact in three stages of increasing size. Enemies take slightly less damage on the second and third stage, and can only be hit by one stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.",
-  "Ice Crash of Cadence:\nTags: Attack, AoE, Cold, Slam, Melee.\nDescription: Slam the ground, damaging enemies in an area. Slams with main hand weapon deal more damage. Slams with off hand weapon have larger area of effect. Requires dual-wielding Swords, Maces, Sceptres, or Axes to use.",
-  "Immortal Call:\nTags: Spell, Duration, Guard.\nDescription: Take less Physical and Elemental Damage for a short time. Consumes up to 5 Endurance Charges to lengthen the buff and further lessen Physical Damage taken. Shares a cooldown with other Guard skills.",
-  "Infernal Blow:\nTags: Attack, AoE, Melee, Strike, Fire, Duration.\nDescription: Attacks with your weapon, applying a charged debuff to enemies hit by your strike, and an uncharged debuff to any other enemies hit. Upon reaching 6 charges, expiring, or the enemy's death, the charged debuff is removed to damage that and other surrounding enemies. Enemies with either debuff explode when they die, damaging other surrounding enemies. Damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Infernal Blow of Immolation:\nTags: Attack, AoE, Melee, Strike, Fire, Duration.\nDescription: Attacks with your weapon, applying a charged debuff to you the first time you hit an enemy with this skill. Upon reaching 6 charges, or charges expiring, the charged debuff is removed to damage nearby enemies. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Infernal Cry:\nTags: Warcry, AoE, Duration, Fire, Attack, Trigger, Melee.\nDescription: Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Covers enemies in ash, causing them to move slower and take increased fire damage. Affected enemies explode when they die, dealing fire damage in an area.",
-  "Intimidating Cry:\nTags: Warcry, AoE, Duration, Physical.\nDescription: Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which lowers the effect of enemy physical damage reduction against your hits.",
-  "Leap Slam:\nTags: Attack, AoE, Movement, Travel, Slam, Melee.\nDescription: Jump through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.",
-  "Leap Slam of Groundbreaking:\nTags: Attack, AoE, Movement, Travel, Slam, Melee.\nDescription: Jump a short distance through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.",
-  "Molten Shell:\nTags: Spell, AoE, Duration, Fire, Physical, Guard.\nDescription: Applies a buff that adds to your armour, and can take some of the damage from hits for you before being depleted. When the buff expires or is depleted, the skill deals reflected damage to enemies around you based on the total damage that was taken from the buff. Shares a cooldown with other Guard skills.",
-  "Molten Strike:\nTags: Attack, Projectile, AoE, Melee, Strike, Fire.\nDescription: Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land.",
-  "Molten Strike of the Zenith:\nTags: Attack, Projectile, AoE, Melee, Strike, Fire.\nDescription: Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles.",
-  "Perforate:\nTags: Physical, Attack, AoE, Slam, Melee.\nDescription: Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default.",
-  "Perforate of Bloodshed:\nTags: Physical, Attack, AoE, Slam, Melee.\nDescription: Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times.\nRequires a Sword or Axe.",
-  "Perforate of Duality:\nTags: Physical, Attack, AoE, Slam, Melee.\nDescription: Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default.",
-  "Petrified Blood:\nTags: Spell.\nDescription: Applies a buff that protects the lower half of your life, preventing some of the immediate life loss when damaged by hits and applying the loss over time instead. Your life cannot be raised above low life other than by flasks, and while above low life, skills will cost life as well as mana.",
-  "Pride:\nTags: Spell, AoE, Aura, Physical.\nDescription: Casts an aura that causes nearby enemies to take more physical damage.",
-  "Protective Link:\nTags: Spell, Duration, Link.\nDescription: Targets an allied player to apply a buff which links you to them for a duration. While linked, they copy your block chance and recover life when they block. If the target dies while linked, you will also die. This skill cannot be triggered, or used by Totems, Traps, or Mines.",
-  "Punishment:\nTags: Spell, AoE, Duration, Curse, Hex.\nDescription: Curses all targets in an area, causing them to be debilitated when they hit enemies and increasing damage they take while on low life.",
-  "Purity of Fire:\nTags: Aura, Spell, AoE, Fire.\nDescription: Casts an aura that grants fire resistance to you and your allies.",
-  "Rage Vortex:\nTags: Attack, AoE, Duration, Melee.\nDescription: Spin with a sword or axe to deal damage in an area around you. Sacrifices some rage to send a ragestorm forward. While enemies are inside it, the ragestorm will slow its movement and repeatedly deal attack damage based on your attack speed.",
-  "Rage Vortex of Berserking:\nTags: Attack, AoE, Melee.\nDescription: Spin with a sword or axe to deal damage in an area around you. If you have at least 10 rage, create a ragestorm attached to you that repeatedly deals attack damage to enemies inside based on your attack speed. The ragestorm consumes rage at an accelerating rate, and ends if you run out.",
-  "Rallying Cry:\nTags: Warcry, AoE, Duration.\nDescription: Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Gives nearby Allies a buff based on the damage of your weapon.",
-  "Reap:\nTags: Spell, Physical, AoE, Duration.\nDescription: A bloody scythe swipes across a selected area, applying a physical damage over time debuff and hitting enemies with physical damage. If any survive, you gain a blood charge which raises the damage and cost of the skill. Players can have 5 maximum blood charges.",
-  "Reckoning:\nTags: Trigger, Attack, AoE, Physical, Melee.\nDescription: Perform a swift counter-attack against enemies in a cone shape when you block with your shield.",
-  "Rejuvenation Totem:\nTags: Totem, Aura, Spell, AoE.\nDescription: Summons a totem that has an aura which regenerates life for you and your nearby allies.",
-  "Searing Bond:\nTags: Spell, Totem, Fire.\nDescription: Summons a totem that casts a beam of fire at you and each other totem you control, dealing burning damage to enemies caught in the beam. Enemies near either end of a beam also suffer burning damage.",
-  "Seismic Cry:\nTags: Warcry, AoE, Duration.\nDescription: Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent slam attacks. Grants a buff which makes it easier for you to stun enemies.",
-  "Shield Charge:\nTags: Attack, AoE, Movement, Travel, Physical, Melee.\nDescription: Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing off-hand damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike.",
-  "Shield Crush:\nTags: Attack, AoE, Physical, Melee.\nDescription: Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap.",
-  "Shield Crush of the Chieftain:\nTags: Attack, AoE, Fire, Melee.\nDescription: Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap.",
-  "Shockwave Totem:\nTags: Totem, Spell, AoE, Physical, Nova.\nDescription: Summons a totem that shakes the earth around it, knocking back and damaging nearby enemies",
-  "Smite:\nTags: Lightning, Attack, AoE, Duration, Melee, Strike, Aura.\nDescription: Performs a melee attack, and causes lightning to strike a nearby enemy, dealing damage in an area. Each target can only be hit once by this skill. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Smite of Divine Judgement:\nTags: Lightning, Attack, AoE, Melee, Strike.\nDescription: Performs a melee attack, and causes lightning to strike nearby enemies, dealing damage in an area. Each target can only be hit once by this skill. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Static Strike:\nTags: Attack, Melee, Strike, AoE, Duration, Lightning, Chaining.\nDescription: Attack with a melee weapon, gaining static energy for a duration if you hit an enemy. While you have static energy, you'll frequently hit a number of nearby enemies with beams, dealing attack damage.",
-  "Steelskin:\nTags: Spell, Duration, Guard.\nDescription: Applies a buff which can take some of the damage from hits for you before being depleted. Shares a cooldown with other Guard skills.",
-  "Summon Flame Golem:\nTags: Fire, Minion, Spell, Golem.\nDescription: Summons a Flame Golem that grants you increased Damage. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile.",
-  "Summon Flame Golem of Hordes:\nTags: Fire, Minion, Spell, Golem.\nDescription: Summons a Flame Golem. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile.",
-  "Summon Flame Golem of the Meteor:\nTags: Fire, Minion, Spell, Golem.\nDescription: Summons a Flame Golem. When summoned, the Flame Golem attacks by falling from the sky, dealing fire damage in an area and leaving burning ground around the impact. After landing, it can cast a fire spray and a wave of fire damage.",
-  "Summon Stone Golem:\nTags: Minion, Spell, Golem, Physical.\nDescription: Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
-  "Summon Stone Golem of Hordes:\nTags: Minion, Spell, Golem, Physical.\nDescription: Summons a Stone Golem. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
-  "Summon Stone Golem of Safeguarding:\nTags: Minion, Spell, Golem, Physical.\nDescription: Summons a Stone Golem that takes a portion of the melee damage you recieve from enemy hits from its life before yours. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
-  "Sunder:\nTags: Attack, AoE, Slam, Melee.\nDescription: Slams the ground, creating a slow wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Using the skill again will stop the previous wave. Requires a Mace, Sceptre, Axe, Staff or Unarmed.",
-  "Sunder of Earthbreaking:\nTags: Attack, AoE, Slam, Melee.\nDescription: Slams the ground, creating a wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Requires a Mace, Sceptre, Axe, Staff or Unarmed.",
-  "Sweep:\nTags: Attack, AoE, Physical, Melee.\nDescription: Swings a two handed melee weapon in a circle, knocking back monsters around the character.",
-  "Tectonic Slam:\nTags: Fire, Attack, AoE, Slam, Melee.\nDescription: Slam the ground, unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Consume an Endurance Charge every third time you slam the ground with this skill. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed.",
-  "Tectonic Slam of Cataclysm:\nTags: Fire, Attack, AoE, Slam, Melee.\nDescription: Slam the ground, consuming all Endurance Charges and unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed.",
-  "Vaal Absolution:\nTags: Spell, Minion, Duration, Physical, Lightning, Vaal, AoE.\nDescription: Causes one of your existing Sentinels of Absolution to Ascend, becoming more powerful, gaining new spells, and overriding its duration, while maintaining its other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Absolution, an existing one will be refreshed instead.",
-  "Vaal Ancestral Warchief:\nTags: Attack, Totem, AoE, Vaal, Melee, Slam.\nDescription: Summons an Ancestor Totem which attacks enemies with a powerful cascading slam while you're near it. If the enemies are far away, it will leap toward them as it slams. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed.",
-  "Vaal Cleave:\nTags: Attack, AoE, Physical, Vaal, Duration, Melee.\nDescription: The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Killing Blows on Rare or Unique enemies grant a buff that improves Cleave for a duration. Killing Blows on Rare Enemies also steal their modifiers for a secondary duration. Only works with Axes and Swords.",
-  "Vaal Domination:\nTags: Spell, Minion, Duration, Vaal, Attack, Melee, Strike.\nDescription: This spell causes one of your existing Sentinels of Dominance to Ascend, becoming more powerful, gaining new attacks, and overriding its duration, while maintaining its monster modifiers and other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Dominance, an existing one will be refreshed instead.",
-  "Vaal Earthquake:\nTags: Attack, AoE, Duration, Vaal, Slam, Melee.\nDescription: Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. After using this skill, your steps will deal damage around you, cracking the earth if the previous cracks have erupted. This effect ends after a secondary duration, or after a maximum number of aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Vaal Glacial Hammer:\nTags: Attack, Melee, Strike, Duration, AoE, Vaal, Cold.\nDescription: Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff.",
-  "Vaal Ground Slam:\nTags: Attack, AoE, Vaal, Slam, Melee.\nDescription: Slams the ground in front of you, creating a wave that travels in all directions that damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Vaal Impurity of Fire:\nTags: Aura, Spell, AoE, Duration, Vaal, Fire.\nDescription: Casts an aura that reduces fire damage taken and provides ignite immunity to you and nearby allies, and makes hits against nearby enemies ignore their fire resistance.",
-  "Vaal Molten Shell:\nTags: Spell, AoE, Duration, Fire, Physical, Vaal, Guard.\nDescription: Applies a buff that raises your armour, and takes some of the damage from hits for you before being depleted. Each second, the skill deals reflected damage to surrounding enemies based on the damage taken by the buff in that second. When the buff is removed, the skill deals reflected damage to enemies around you based on the total damage that was taken by the buff. You cannot have the buff at the same time as any other Guard skill.",
-  "Vaal Molten Strike:\nTags: Attack, Projectile, AoE, Melee, Strike, Fire, Chaining, Vaal.\nDescription: Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth causing area attack damage to enemies where they land.",
-  "Vaal Reap:\nTags: Spell, Physical, AoE, Duration, Vaal.\nDescription: Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration.",
-  "Vaal Rejuvenation Totem:\nTags: Totem, Aura, Spell, AoE, Vaal.\nDescription: Summons a totem that has an aura which regenerates life for you and your nearby allies. When things affected by the aura are hit, the totem's life is removed instead for some of the damage.",
-  "Vaal Smite:\nTags: Lightning, Attack, AoE, Duration, Melee, Strike, Aura, Vaal.\nDescription: Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Vaal Volcanic Fissure:\nTags: Melee, Attack, Projectile, AoE, Slam, Fire, Vaal.\nDescription: Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Vengeance:\nTags: Trigger, Attack, AoE, Physical, Melee.\nDescription: Chance to perform a swift counter-attack against all enemies around you when you are hit. Weapon range increases the area of this attack. Requires a Melee Weapon.",
-  "Vigilant Strike:\nTags: Attack, Melee, Strike.\nDescription: Attacks enemies with a powerful melee strike which grants Fortification, reducing damage you take from hits. The cooldown can be bypassed by expending an Endurance Charge. Requires a Melee Weapon.",
-  "Vitality:\nTags: Aura, Spell, AoE.\nDescription: Casts an aura that grants life regeneration to you and your allies.",
-  "Volcanic Fissure:\nTags: Melee, Attack, Projectile, AoE, Slam, Fire.\nDescription: Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Volcanic Fissure of Snaking:\nTags: Melee, Attack, AoE, Slam, Fire.\nDescription: Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts dealing damage in an area. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
-  "Vulnerability:\nTags: Spell, AoE, Duration, Curse, Physical, Hex.\nDescription: Curse all targets in an area, causing them to take increased physical damage. Attacks against the cursed enemies have a chance to inflict bleeding.",
-  "War Banner:\nTags: AoE, Spell, Duration, Aura, Physical.\nDescription: Casting once reserves mana to carry a banner which increases the accuracy of nearby allies, and physical damage taken by nearby enemies. Gain stages by killing enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.",
-  "Warlord's Mark:\nTags: Spell, Curse, Mark.\nDescription: Curses a single enemy, giving a chance to double the duration of stuns on them. Attacking the cursed enemy will leech life and mana, stunning them will grant rage, and killing it will grant an endurance charge. You can only have one Mark at a time."
+  {
+    "Skill Gem": [
+      "Absolution"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Physical",
+      "Lightning",
+      "AoE"
+    ],
+    "Skill Gem Description": [
+      "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Anger"
+    ],
+    "Skill Gem Tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that adds fire damage to the attacks and spells of you and your allies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Chain Hook"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "When used at range, throws out a chain, pulling you to the enemy hit dealing damage in an area behind them. When close to the enemy, just causes the area damage directly. Requires a One Handed Mace, Sceptre, Sword or Axe."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Bladestorm of Uncertainty"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Perform a spinning attack, damaging enemies around you and creating a random bladestorm. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Animate Guardian of Smiting"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Minion",
+      "Lightning"
+    ],
+    "Skill Gem Description": [
+      "Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side using Smite of Divine Judgement, ignoring weapon restrictions. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Boneshatter of Carnage"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Attack enemies with a forceful melee strike. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Cleave"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Bladestorm"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Perform a spinning attack, damaging enemies around you and creating a bladestorm matching your stance. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe. You are in Blood Stance by default."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Berserk"
+    ],
+    "Skill Gem Tags": [
+      "Spell"
+    ],
+    "Skill Gem Description": [
+      "Consumes Rage at an accelerating rate to provide a powerful buff, granting more attack damage, attack speed, movement speed, and less damage taken."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Boneshatter"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Absolution of Inspiring"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Physical",
+      "Lightning",
+      "AoE"
+    ],
+    "Skill Gem Description": [
+      "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Battlemage's Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "Critical",
+      "Trigger",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which boosts critical strike chance and allows attacks to benefit from increases to spell damage."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ancestral Protector"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Totem",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "Summons an Ancestor Totem which attacks enemies with melee strikes while you're near it. Being near it grants you more attack speed. Requires a Melee Weapon or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Blood and Sand"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Stance"
+    ],
+    "Skill Gem Description": [
+      "Casts a buff that grants different bonuses to melee skills depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ancestral Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting all nearby enemies to attack the user and exerting subsequent strike attacks. Grants a buff which gives you bonus armour and melee range."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Cleave of Rage"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "The character swings both their weapons in an arc, damaging monsters in an area in front of them. Requires dual wielding both an Axe and a Sword."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Consecrated Path of Endurance"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Movement",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. The cooldown can be bypassed by expending an Endurance Charge. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Determination"
+    ],
+    "Skill Gem Tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that grants armour to you and your allies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Consecrated Path"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Movement",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Corrupting Fever"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Duration",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Draws out your own blood to power a buff for a duration, letting this skill inflict the Corrupting Blood debuff on enemies you hit, dealing physical damage over time for a short secondary duration. The buff's duration will be refreshed if you spend enough life before it expires."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Decoy Totem"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Spell",
+      "AoE"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that taunts nearby monsters to attack it."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Animate Guardian"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Minion"
+    ],
+    "Skill Gem Description": [
+      "Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Defiance Banner"
+    ],
+    "Skill Gem Tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Casting once reserves mana to carry a banner which increases the armour and evasion of nearby allies, and reduces the critical strike chance of nearby enemies. Gains stages over time while carrying the banner near enemies. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Earthquake"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Devouring Totem"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Spell"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Earthshatter"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. Warcries or other Slam Attacks performed by you or allied players near any spike will cause them to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Exsanguinate"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Chaining",
+      "Physical",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Releases several tendrils of blood from your character, targeting enemies in a narrow angle in front of you. The beams deal physical damage and inflict a physical damage over time debuff to enemies, which can stack up to 3 times. Effects which allow skills to chain can apply to these tendrils."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Dominating Blow"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Dominating Blow of Inspiring"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Minion",
+      "Duration",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Dread Banner"
+    ],
+    "Skill Gem Tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Casting once reserves mana to carry a banner which makes nearby allies inflict impale with attacks, and lessens the accuracy of nearby enemies. Gain stages by impaling enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Earthquake of Amplification"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Earthshatter of Fragility"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. The spikes shatter after a duration, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Earthshatter of Prominence"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, sending out a rectangular fissure that deals area damage to enemies and thrusts a large spike from the ground where it ends. Warcries or other Slam Attacks performed by you or allied players near the spike will cause it to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Enduring Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting all nearby enemies to attack the user and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction based on your endurance charges."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Exsanguinate of Transmission"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Chaining",
+      "Physical",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Releases a tendril of blood from your character, which will target an enemy in front of you, then chain to other enemies. The tendril deals physical damage and inflicts a physical damage over time debuff to enemies, which can stack up to 3 times."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Flame Link"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Duration",
+      "Link",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Targets an allied player to apply a buff which links you to them for a duration. While linked, they deal additional fire damage based on your life. If the target dies while linked, you will also die. This skill cannot be triggered, or used by Totems, Traps, or Mines."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Flesh and Stone"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Aura",
+      "AoE",
+      "Stance"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that affects you and nearby enemies differently depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Frozen Legion"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Cold",
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Frozen Legion of Rallying"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Cold",
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "General's Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting nearby enemies to attack the user, and summoning Mirage Warriors from nearby corpses. The Mirage Warriors each use a linked attack skill once before dissipating."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Glacial Hammer"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "Skill Gem Description": [
+      "Hits enemies, converting some of your physical damage to cold damage. If a non-unique enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ground Slam"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground in front of you, creating a wave that travels forward and damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Glacial Hammer of Shattering"
+    ],
+    "Skill Gem Tags": [
+      "Critical",
+      "Attack",
+      "Melee",
+      "Strike",
+      "Cold"
+    ],
+    "Skill Gem Description": [
+      "Hits enemies, converting some of your physical damage to cold damage. If striking three times in a row, the third strike will be a critical strike. Requires a Mace, Sceptre or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ground Slam of Earthshaking"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground in front of you, creating a wide wave that travels forward and damages enemies with an increased chance to stun. Requires a Two Handed Axe, Two Handed Mace, or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Heavy Strike"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "Attacks enemies with a forceful blow, knocking them back. Requires a Mace, Sceptre, Axe, Sword or Two-Handed Weapon."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Herald of Ash"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Fire",
+      "Herald",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Grants a buff providing fire damage based on your physical damage. While you have this buff, if you kill an enemy, other enemies near them will be burned based on the overkill damage. The burn inflicted by this skill can only be affected by modifiers to damage over time (burning damage is damage over time)."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Herald of Purity"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Herald",
+      "Minion",
+      "Duration",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Grants a buff which lets you deal more physical damage. When you kill an enemy while you have this buff, this skill will summon a Sentinel of Purity, or refresh the duration and life of an existing one instead if you have the maximum number of them. The Sentinels of Purity have a single-target melee attack and an area melee attack."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Holy Flame Totem"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "Channelling",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Holy Flame Totem of Ire"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Spell",
+      "Projectile",
+      "Fire",
+      "Channelling",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ice Crash"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Cold",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, damaging enemies in an area around the impact in three stages of increasing size. Enemies take slightly less damage on the second and third stage, and can only be hit by one stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ice Crash of Cadence"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Cold",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, damaging enemies in an area. Slams with main hand weapon deal more damage. Slams with off hand weapon have larger area of effect. Requires dual-wielding Swords, Maces, Sceptres, or Axes to use."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Infernal Blow"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Attacks with your weapon, applying a charged debuff to enemies hit by your strike, and an uncharged debuff to any other enemies hit. Upon reaching 6 charges, expiring, or the enemy's death, the charged debuff is removed to damage that and other surrounding enemies. Enemies with either debuff explode when they die, damaging other surrounding enemies. Damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Ancestral Warchief"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Summons an Ancestor Totem which attacks enemies with a powerful slam while you're near it. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Infernal Blow of Immolation"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Attacks with your weapon, applying a charged debuff to you the first time you hit an enemy with this skill. Upon reaching 6 charges, or charges expiring, the charged debuff is removed to damage nearby enemies. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Perforate"
+    ],
+    "Skill Gem Tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Infernal Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Attack",
+      "Trigger",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Covers enemies in ash, causing them to move slower and take increased fire damage. Affected enemies explode when they die, dealing fire damage in an area."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Leap Slam"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Jump through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Intimidating Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which lowers the effect of enemy physical damage reduction against your hits."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Leap Slam of Groundbreaking"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Jump a short distance through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Immortal Call"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Duration",
+      "Guard"
+    ],
+    "Skill Gem Description": [
+      "Take less Physical and Elemental Damage for a short time. Consumes up to 5 Endurance Charges to lengthen the buff and further lessen Physical Damage taken. Shares a cooldown with other Guard skills."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Molten Shell"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Physical",
+      "Guard"
+    ],
+    "Skill Gem Description": [
+      "Applies a buff that adds to your armour, and can take some of the damage from hits for you before being depleted. When the buff expires or is depleted, the skill deals reflected damage to enemies around you based on the total damage that was taken from the buff. Shares a cooldown with other Guard skills."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Pride"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Aura",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that causes nearby enemies to take more physical damage."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Molten Strike"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Molten Strike of the Zenith"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Perforate of Bloodshed"
+    ],
+    "Skill Gem Tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times.\nRequires a Sword or Axe."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Punishment"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Hex"
+    ],
+    "Skill Gem Description": [
+      "Curses all targets in an area, causing them to be debilitated when they hit enemies and increasing damage they take while on low life."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Boneshatter of Complex Trauma"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Perforate of Duality"
+    ],
+    "Skill Gem Tags": [
+      "Physical",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Petrified Blood"
+    ],
+    "Skill Gem Tags": [
+      "Spell"
+    ],
+    "Skill Gem Description": [
+      "Applies a buff that protects the lower half of your life, preventing some of the immediate life loss when damaged by hits and applying the loss over time instead. Your life cannot be raised above low life other than by flasks, and while above low life, skills will cost life as well as mana."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Reap"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Physical",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "A bloody scythe swipes across a selected area, applying a physical damage over time debuff and hitting enemies with physical damage. If any survive, you gain a blood charge which raises the damage and cost of the skill. Players can have 5 maximum blood charges."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Reckoning"
+    ],
+    "Skill Gem Tags": [
+      "Trigger",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Perform a swift counter-attack against enemies in a cone shape when you block with your shield."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Protective Link"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Duration",
+      "Link"
+    ],
+    "Skill Gem Description": [
+      "Targets an allied player to apply a buff which links you to them for a duration. While linked, they copy your block chance and recover life when they block. If the target dies while linked, you will also die. This skill cannot be triggered, or used by Totems, Traps, or Mines."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Purity of Fire"
+    ],
+    "Skill Gem Tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that grants fire resistance to you and your allies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Rage Vortex"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Spin with a sword or axe to deal damage in an area around you. Sacrifices some rage to send a ragestorm forward. While enemies are inside it, the ragestorm will slow its movement and repeatedly deal attack damage based on your attack speed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Rage Vortex of Berserking"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Spin with a sword or axe to deal damage in an area around you. If you have at least 10 rage, create a ragestorm attached to you that repeatedly deals attack damage to enemies inside based on your attack speed. The ragestorm consumes rage at an accelerating rate, and ends if you run out."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Rallying Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Gives nearby Allies a buff based on the damage of your weapon."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Smite"
+    ],
+    "Skill Gem Tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Aura"
+    ],
+    "Skill Gem Description": [
+      "Performs a melee attack, and causes lightning to strike a nearby enemy, dealing damage in an area. Each target can only be hit once by this skill. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Steelskin"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Duration",
+      "Guard"
+    ],
+    "Skill Gem Description": [
+      "Applies a buff which can take some of the damage from hits for you before being depleted. Shares a cooldown with other Guard skills."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Rejuvenation Totem"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that has an aura which regenerates life for you and your nearby allies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Searing Bond"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Totem",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that casts a beam of fire at you and each other totem you control, dealing burning damage to enemies caught in the beam. Enemies near either end of a beam also suffer burning damage."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Shield Charge"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Movement",
+      "Travel",
+      "Physical",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing off-hand damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Seismic Cry"
+    ],
+    "Skill Gem Tags": [
+      "Warcry",
+      "AoE",
+      "Duration"
+    ],
+    "Skill Gem Description": [
+      "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent slam attacks. Grants a buff which makes it easier for you to stun enemies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Shield Crush"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Shield Crush of the Chieftain"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Fire",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Shockwave Totem"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Spell",
+      "AoE",
+      "Physical",
+      "Nova"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that shakes the earth around it, knocking back and damaging nearby enemies"
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Smite of Divine Judgement"
+    ],
+    "Skill Gem Tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "Performs a melee attack, and causes lightning to strike nearby enemies, dealing damage in an area. Each target can only be hit once by this skill. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Static Strike"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "AoE",
+      "Duration",
+      "Lightning",
+      "Chaining"
+    ],
+    "Skill Gem Description": [
+      "Attack with a melee weapon, gaining static energy for a duration if you hit an enemy. While you have static energy, you'll frequently hit a number of nearby enemies with beams, dealing attack damage."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Sunder"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground, creating a slow wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Using the skill again will stop the previous wave. Requires a Mace, Sceptre, Axe, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Summon Flame Golem"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "Skill Gem Description": [
+      "Summons a Flame Golem that grants you increased Damage. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Sweep"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Swings a two handed melee weapon in a circle, knocking back monsters around the character."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Summon Flame Golem of Hordes"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "Skill Gem Description": [
+      "Summons a Flame Golem. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Summon Flame Golem of the Meteor"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Minion",
+      "Spell",
+      "Golem"
+    ],
+    "Skill Gem Description": [
+      "Summons a Flame Golem. When summoned, the Flame Golem attacks by falling from the sky, dealing fire damage in an area and leaving burning ground around the impact. After landing, it can cast a fire spray and a wave of fire damage."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Summon Stone Golem of Hordes"
+    ],
+    "Skill Gem Tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Summons a Stone Golem. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Summon Stone Golem"
+    ],
+    "Skill Gem Tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Summon Stone Golem of Safeguarding"
+    ],
+    "Skill Gem Tags": [
+      "Minion",
+      "Spell",
+      "Golem",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Summons a Stone Golem that takes a portion of the melee damage you recieve from enemy hits from its life before yours. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Sunder of Earthbreaking"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground, creating a wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Requires a Mace, Sceptre, Axe, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Tectonic Slam of Cataclysm"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, consuming all Endurance Charges and unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Tectonic Slam"
+    ],
+    "Skill Gem Tags": [
+      "Fire",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Consume an Endurance Charge every third time you slam the ground with this skill. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Absolution"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Physical",
+      "Lightning",
+      "Vaal",
+      "AoE"
+    ],
+    "Skill Gem Description": [
+      "Causes one of your existing Sentinels of Absolution to Ascend, becoming more powerful, gaining new spells, and overriding its duration, while maintaining its other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Absolution, an existing one will be refreshed instead."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Cleave"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Physical",
+      "Vaal",
+      "Duration",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Killing Blows on Rare or Unique enemies grant a buff that improves Cleave for a duration. Killing Blows on Rare Enemies also steal their modifiers for a secondary duration. Only works with Axes and Swords."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Ancestral Warchief"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Totem",
+      "AoE",
+      "Vaal",
+      "Melee",
+      "Slam"
+    ],
+    "Skill Gem Description": [
+      "Summons an Ancestor Totem which attacks enemies with a powerful cascading slam while you're near it. If the enemies are far away, it will leap toward them as it slams. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Domination"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Minion",
+      "Duration",
+      "Vaal",
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "This spell causes one of your existing Sentinels of Dominance to Ascend, becoming more powerful, gaining new attacks, and overriding its duration, while maintaining its monster modifiers and other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Dominance, an existing one will be refreshed instead."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Earthquake"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. After using this skill, your steps will deal damage around you, cracking the earth if the previous cracks have erupted. This effect ends after a secondary duration, or after a maximum number of aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Glacial Hammer"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Duration",
+      "AoE",
+      "Vaal",
+      "Cold"
+    ],
+    "Skill Gem Description": [
+      "Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Ground Slam"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "AoE",
+      "Vaal",
+      "Slam",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Slams the ground in front of you, creating a wave that travels in all directions that damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Impurity of Fire"
+    ],
+    "Skill Gem Tags": [
+      "Aura",
+      "Spell",
+      "AoE",
+      "Duration",
+      "Vaal",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that reduces fire damage taken and provides ignite immunity to you and nearby allies, and makes hits against nearby enemies ignore their fire resistance."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vengeance"
+    ],
+    "Skill Gem Tags": [
+      "Trigger",
+      "Attack",
+      "AoE",
+      "Physical",
+      "Melee"
+    ],
+    "Skill Gem Description": [
+      "Chance to perform a swift counter-attack against all enemies around you when you are hit. Weapon range increases the area of this attack. Requires a Melee Weapon."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vitality"
+    ],
+    "Skill Gem Tags": [
+      "Aura",
+      "Spell",
+      "AoE"
+    ],
+    "Skill Gem Description": [
+      "Casts an aura that grants life regeneration to you and your allies."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Molten Shell"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Fire",
+      "Physical",
+      "Vaal",
+      "Guard"
+    ],
+    "Skill Gem Description": [
+      "Applies a buff that raises your armour, and takes some of the damage from hits for you before being depleted. Each second, the skill deals reflected damage to surrounding enemies based on the damage taken by the buff in that second. When the buff is removed, the skill deals reflected damage to enemies around you based on the total damage that was taken by the buff. You cannot have the buff at the same time as any other Guard skill."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Molten Strike"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Melee",
+      "Strike",
+      "Fire",
+      "Chaining",
+      "Vaal"
+    ],
+    "Skill Gem Description": [
+      "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth causing area attack damage to enemies where they land."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vulnerability"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "AoE",
+      "Duration",
+      "Curse",
+      "Physical",
+      "Hex"
+    ],
+    "Skill Gem Description": [
+      "Curse all targets in an area, causing them to take increased physical damage. Attacks against the cursed enemies have a chance to inflict bleeding."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Rejuvenation Totem"
+    ],
+    "Skill Gem Tags": [
+      "Totem",
+      "Aura",
+      "Spell",
+      "AoE",
+      "Vaal"
+    ],
+    "Skill Gem Description": [
+      "Summons a totem that has an aura which regenerates life for you and your nearby allies. When things affected by the aura are hit, the totem's life is removed instead for some of the damage."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Reap"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Physical",
+      "AoE",
+      "Duration",
+      "Vaal"
+    ],
+    "Skill Gem Description": [
+      "Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Smite"
+    ],
+    "Skill Gem Tags": [
+      "Lightning",
+      "Attack",
+      "AoE",
+      "Duration",
+      "Melee",
+      "Strike",
+      "Aura",
+      "Vaal"
+    ],
+    "Skill Gem Description": [
+      "Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vaal Volcanic Fissure"
+    ],
+    "Skill Gem Tags": [
+      "Melee",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Slam",
+      "Fire",
+      "Vaal"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Vigilant Strike"
+    ],
+    "Skill Gem Tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ],
+    "Skill Gem Description": [
+      "Attacks enemies with a powerful melee strike which grants Fortification, reducing damage you take from hits. The cooldown can be bypassed by expending an Endurance Charge. Requires a Melee Weapon."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Volcanic Fissure"
+    ],
+    "Skill Gem Tags": [
+      "Melee",
+      "Attack",
+      "Projectile",
+      "AoE",
+      "Slam",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Volcanic Fissure of Snaking"
+    ],
+    "Skill Gem Tags": [
+      "Melee",
+      "Attack",
+      "AoE",
+      "Slam",
+      "Fire"
+    ],
+    "Skill Gem Description": [
+      "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts dealing damage in an area. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "War Banner"
+    ],
+    "Skill Gem Tags": [
+      "AoE",
+      "Spell",
+      "Duration",
+      "Aura",
+      "Physical"
+    ],
+    "Skill Gem Description": [
+      "Casting once reserves mana to carry a banner which increases the accuracy of nearby allies, and physical damage taken by nearby enemies. Gain stages by killing enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time."
+    ]
+  },
+  {
+    "Skill Gem": [
+      "Warlord's Mark"
+    ],
+    "Skill Gem Tags": [
+      "Spell",
+      "Curse",
+      "Mark"
+    ],
+    "Skill Gem Description": [
+      "Curses a single enemy, giving a chance to double the duration of stuns on them. Attacking the cursed enemy will leech life and mana, stunning them will grant rage, and killing it will grant an endurance charge. You can only have one Mark at a time."
+    ]
+  }
 ]
