@@ -17,22 +17,6 @@
   },
   {
     "Skill Gem": [
-      "Absolution of Inspiring"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration",
-      "Physical",
-      "Lightning",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Ancestral Cry"
     ],
     "Skill Gem Tags": [
@@ -101,19 +85,6 @@
   },
   {
     "Skill Gem": [
-      "Animate Guardian of Smiting"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side using Smite of Divine Judgement, ignoring weapon restrictions. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Battlemage's Cry"
     ],
     "Skill Gem Tags": [
@@ -154,20 +125,6 @@
   },
   {
     "Skill Gem": [
-      "Bladestorm of Uncertainty"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Duration",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Perform a spinning attack, damaging enemies around you and creating a random bladestorm. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Blood and Sand"
     ],
     "Skill Gem Tags": [
@@ -181,37 +138,6 @@
   {
     "Skill Gem": [
       "Boneshatter"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "AoE",
-      "Duration",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Boneshatter of Carnage"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Attack enemies with a forceful melee strike. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Boneshatter of Complex Trauma"
     ],
     "Skill Gem Tags": [
       "Attack",
@@ -255,19 +181,6 @@
   },
   {
     "Skill Gem": [
-      "Cleave of Rage"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "The character swings both their weapons in an arc, damaging monsters in an area in front of them. Requires dual wielding both an Axe and a Sword."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Consecrated Path"
     ],
     "Skill Gem Tags": [
@@ -281,23 +194,6 @@
     ],
     "Skill Gem Description": [
       "Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Consecrated Path of Endurance"
-    ],
-    "Skill Gem Tags": [
-      "Fire",
-      "Attack",
-      "AoE",
-      "Movement",
-      "Duration",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. The cooldown can be bypassed by expending an Endurance Charge. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -384,21 +280,6 @@
   },
   {
     "Skill Gem": [
-      "Dominating Blow of Inspiring"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Minion",
-      "Duration",
-      "Melee",
-      "Strike"
-    ],
-    "Skill Gem Description": [
-      "Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Dread Banner"
     ],
     "Skill Gem Tags": [
@@ -429,21 +310,6 @@
   },
   {
     "Skill Gem": [
-      "Earthquake of Amplification"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Duration",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Earthshatter"
     ],
     "Skill Gem Tags": [
@@ -455,36 +321,6 @@
     ],
     "Skill Gem Description": [
       "Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. Warcries or other Slam Attacks performed by you or allied players near any spike will cause them to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Earthshatter of Fragility"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Slam",
-      "Duration",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. The spikes shatter after a duration, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Earthshatter of Prominence"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Slam",
-      "Duration",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slam the ground, sending out a rectangular fissure that deals area damage to enemies and thrusts a large spike from the ground where it ends. Warcries or other Slam Attacks performed by you or allied players near the spike will cause it to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed."
     ]
   },
   {
@@ -512,20 +348,6 @@
     ],
     "Skill Gem Description": [
       "Releases several tendrils of blood from your character, targeting enemies in a narrow angle in front of you. The beams deal physical damage and inflict a physical damage over time debuff to enemies, which can stack up to 3 times. Effects which allow skills to chain can apply to these tendrils."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Exsanguinate of Transmission"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Chaining",
-      "Physical",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Releases a tendril of blood from your character, which will target an enemy in front of you, then chain to other enemies. The tendril deals physical damage and inflicts a physical damage over time debuff to enemies, which can stack up to 3 times."
     ]
   },
   {
@@ -573,21 +395,6 @@
   },
   {
     "Skill Gem": [
-      "Frozen Legion of Rallying"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Cold",
-      "Attack",
-      "AoE",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
       "General's Cry"
     ],
     "Skill Gem Tags": [
@@ -615,21 +422,6 @@
   },
   {
     "Skill Gem": [
-      "Glacial Hammer of Shattering"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Attack",
-      "Melee",
-      "Strike",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Hits enemies, converting some of your physical damage to cold damage. If striking three times in a row, the third strike will be a critical strike. Requires a Mace, Sceptre or Staff."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Ground Slam"
     ],
     "Skill Gem Tags": [
@@ -640,20 +432,6 @@
     ],
     "Skill Gem Description": [
       "Slams the ground in front of you, creating a wave that travels forward and damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Ground Slam of Earthshaking"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slams the ground in front of you, creating a wide wave that travels forward and damages enemies with an increased chance to stun. Requires a Two Handed Axe, Two Handed Mace, or Staff."
     ]
   },
   {
@@ -717,22 +495,6 @@
   },
   {
     "Skill Gem": [
-      "Holy Flame Totem of Ire"
-    ],
-    "Skill Gem Tags": [
-      "Totem",
-      "Spell",
-      "Projectile",
-      "Fire",
-      "Channelling",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Ice Crash"
     ],
     "Skill Gem Tags": [
@@ -744,21 +506,6 @@
     ],
     "Skill Gem Description": [
       "Slam the ground, damaging enemies in an area around the impact in three stages of increasing size. Enemies take slightly less damage on the second and third stage, and can only be hit by one stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Ice Crash of Cadence"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Cold",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slam the ground, damaging enemies in an area. Slams with main hand weapon deal more damage. Slams with off hand weapon have larger area of effect. Requires dual-wielding Swords, Maces, Sceptres, or Axes to use."
     ]
   },
   {
@@ -788,22 +535,6 @@
     ],
     "Skill Gem Description": [
       "Attacks with your weapon, applying a charged debuff to enemies hit by your strike, and an uncharged debuff to any other enemies hit. Upon reaching 6 charges, expiring, or the enemy's death, the charged debuff is removed to damage that and other surrounding enemies. Enemies with either debuff explode when they die, damaging other surrounding enemies. Damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Infernal Blow of Immolation"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Melee",
-      "Strike",
-      "Fire",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Attacks with your weapon, applying a charged debuff to you the first time you hit an enemy with this skill. Upon reaching 6 charges, or charges expiring, the charged debuff is removed to damage nearby enemies. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -855,22 +586,6 @@
   },
   {
     "Skill Gem": [
-      "Leap Slam of Groundbreaking"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Movement",
-      "Travel",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Jump a short distance through the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Molten Shell"
     ],
     "Skill Gem Tags": [
@@ -903,53 +618,7 @@
   },
   {
     "Skill Gem": [
-      "Molten Strike of the Zenith"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Melee",
-      "Strike",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Perforate"
-    ],
-    "Skill Gem Tags": [
-      "Physical",
-      "Attack",
-      "AoE",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Perforate of Bloodshed"
-    ],
-    "Skill Gem Tags": [
-      "Physical",
-      "Attack",
-      "AoE",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Smash the ground to bring forth multiple spikes from the ground in sequence, able to hit enemies multiple times. Requires a Sword or Axe."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Perforate of Duality"
     ],
     "Skill Gem Tags": [
       "Physical",
@@ -1041,19 +710,6 @@
     ],
     "Skill Gem Description": [
       "Spin with a sword or axe to deal damage in an area around you. Sacrifices some rage to send a ragestorm forward. While enemies are inside it, the ragestorm will slow its movement and repeatedly deal attack damage based on your attack speed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Rage Vortex of Berserking"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Spin with a sword or axe to deal damage in an area around you. If you have at least 10 rage, create a ragestorm attached to you that repeatedly deals attack damage to enemies inside based on your attack speed. The ragestorm consumes rage at an accelerating rate, and ends if you run out."
     ]
   },
   {
@@ -1170,20 +826,6 @@
   },
   {
     "Skill Gem": [
-      "Shield Crush of the Chieftain"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Fire",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Shockwave Totem"
     ],
     "Skill Gem Tags": [
@@ -1212,21 +854,6 @@
     ],
     "Skill Gem Description": [
       "Performs a melee attack, and causes lightning to strike a nearby enemy, dealing damage in an area. Each target can only be hit once by this skill. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Smite of Divine Judgement"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Attack",
-      "AoE",
-      "Melee",
-      "Strike"
-    ],
-    "Skill Gem Description": [
-      "Performs a melee attack, and causes lightning to strike nearby enemies, dealing damage in an area. Each target can only be hit once by this skill. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -1275,34 +902,6 @@
   },
   {
     "Skill Gem": [
-      "Summon Flame Golem of Hordes"
-    ],
-    "Skill Gem Tags": [
-      "Fire",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Flame Golem. The Flame Golem can cast a fire spray, a wave of fire damage, and an explosive arcing projectile."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Flame Golem of the Meteor"
-    ],
-    "Skill Gem Tags": [
-      "Fire",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Flame Golem. When summoned, the Flame Golem attacks by falling from the sky, dealing fire damage in an area and leaving burning ground around the impact. After landing, it can cast a fire spray and a wave of fire damage."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Summon Stone Golem"
     ],
     "Skill Gem Tags": [
@@ -1317,34 +916,6 @@
   },
   {
     "Skill Gem": [
-      "Summon Stone Golem of Hordes"
-    ],
-    "Skill Gem Tags": [
-      "Minion",
-      "Spell",
-      "Golem",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Summons a Stone Golem. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Stone Golem of Safeguarding"
-    ],
-    "Skill Gem Tags": [
-      "Minion",
-      "Spell",
-      "Golem",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Summons a Stone Golem that takes a portion of the melee damage you recieve from enemy hits from its life before yours. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Sunder"
     ],
     "Skill Gem Tags": [
@@ -1355,20 +926,6 @@
     ],
     "Skill Gem Description": [
       "Slams the ground, creating a slow wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Using the skill again will stop the previous wave. Requires a Mace, Sceptre, Axe, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Sunder of Earthbreaking"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slams the ground, creating a wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Requires a Mace, Sceptre, Axe, Staff or Unarmed."
     ]
   },
   {
@@ -1398,251 +955,6 @@
     ],
     "Skill Gem Description": [
       "Slam the ground, unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Consume an Endurance Charge every third time you slam the ground with this skill. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Tectonic Slam of Cataclysm"
-    ],
-    "Skill Gem Tags": [
-      "Fire",
-      "Attack",
-      "AoE",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slam the ground, consuming all Endurance Charges and unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Absolution"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration",
-      "Physical",
-      "Lightning",
-      "Vaal",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Causes one of your existing Sentinels of Absolution to Ascend, becoming more powerful, gaining new spells, and overriding its duration, while maintaining its other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Absolution, an existing one will be refreshed instead."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Ancestral Warchief"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Totem",
-      "AoE",
-      "Vaal",
-      "Melee",
-      "Slam"
-    ],
-    "Skill Gem Description": [
-      "Summons an Ancestor Totem which attacks enemies with a powerful cascading slam while you're near it. If the enemies are far away, it will leap toward them as it slams. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Cleave"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Physical",
-      "Vaal",
-      "Duration",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Killing Blows on Rare or Unique enemies grant a buff that improves Cleave for a duration. Killing Blows on Rare Enemies also steal their modifiers for a secondary duration. Only works with Axes and Swords."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Domination"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration",
-      "Vaal",
-      "Attack",
-      "Melee",
-      "Strike"
-    ],
-    "Skill Gem Description": [
-      "This spell causes one of your existing Sentinels of Dominance to Ascend, becoming more powerful, gaining new attacks, and overriding its duration, while maintaining its monster modifiers and other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Dominance, an existing one will be refreshed instead."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Earthquake"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. After using this skill, your steps will deal damage around you, cracking the earth if the previous cracks have erupted. This effect ends after a secondary duration, or after a maximum number of aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Glacial Hammer"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Duration",
-      "AoE",
-      "Vaal",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Ground Slam"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Vaal",
-      "Slam",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slams the ground in front of you, creating a wave that travels in all directions that damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Impurity of Fire"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Casts an aura that reduces fire damage taken and provides ignite immunity to you and nearby allies, and makes hits against nearby enemies ignore their fire resistance."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Molten Shell"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Physical",
-      "Vaal",
-      "Guard"
-    ],
-    "Skill Gem Description": [
-      "Applies a buff that raises your armour, and takes some of the damage from hits for you before being depleted. Each second, the skill deals reflected damage to surrounding enemies based on the damage taken by the buff in that second. When the buff is removed, the skill deals reflected damage to enemies around you based on the total damage that was taken by the buff. You cannot have the buff at the same time as any other Guard skill."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Molten Strike"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Melee",
-      "Strike",
-      "Fire",
-      "Chaining",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth causing area attack damage to enemies where they land."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Reap"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Physical",
-      "AoE",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Rejuvenation Totem"
-    ],
-    "Skill Gem Tags": [
-      "Totem",
-      "Aura",
-      "Spell",
-      "AoE",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Summons a totem that has an aura which regenerates life for you and your nearby allies. When things affected by the aura are hit, the totem's life is removed instead for some of the damage."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Smite"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Attack",
-      "AoE",
-      "Duration",
-      "Melee",
-      "Strike",
-      "Aura",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area. Hitting an enemy grants an aura for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Volcanic Fissure"
-    ],
-    "Skill Gem Tags": [
-      "Melee",
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Slam",
-      "Fire",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -1700,21 +1012,6 @@
     ],
     "Skill Gem Description": [
       "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Volcanic Fissure of Snaking"
-    ],
-    "Skill Gem Tags": [
-      "Melee",
-      "Attack",
-      "AoE",
-      "Slam",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts dealing damage in an area. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed."
     ]
   },
   {
@@ -1809,33 +1106,6 @@
   },
   {
     "Skill Gem": [
-      "Animate Weapon of Ranged Arms"
-    ],
-    "Skill Gem Tags": [
-      "Duration",
-      "Minion",
-      "Spell",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Animates a Ranged Weapon Item or Lingering Blade to fight by your side. You cannot animate unidentified Weapons. Will not animate weapons with 6 sockets. Cannot be used by Traps or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Animate Weapon of Self Reflection"
-    ],
-    "Skill Gem Tags": [
-      "Duration",
-      "Minion",
-      "Spell"
-    ],
-    "Skill Gem Description": [
-      "Animates a copy of your main hand Melee Weapon to fight by your side. Cannot be used by Totems, Traps or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Arctic Armour"
     ],
     "Skill Gem Tags": [
@@ -1878,19 +1148,6 @@
   },
   {
     "Skill Gem": [
-      "Barrage of Volley Fire"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "After a short preparation time, you fire projectiles repeatedly with a Bow or Wand. These projectiles have a small randomised spread. This skill cannot be Triggered."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Bear Trap"
     ],
     "Skill Gem Tags": [
@@ -1905,20 +1162,6 @@
   },
   {
     "Skill Gem": [
-      "Bear Trap of Skewers"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "Duration",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that damages and impales a single enemy, and immobilises them for a duration based on how much damage was dealt. Modifiers to spell damage do not affect this skill's damage."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Blade Blast"
     ],
     "Skill Gem Tags": [
@@ -1928,34 +1171,6 @@
     ],
     "Skill Gem Description": [
       "Deals spell damage in a targeted area. Each time this spell deals damage,  it will detonate any of your Lingering Blades it touches, dealing damage again in an area around them. Up to 50 Blades can be detonated this way."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Blade Blast of Dagger Detonation"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Physical",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "Deals spell damage in an area around you. Your equipped daggers add to this damage."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Blade Blast of Unloading"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Physical",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "Deals spell damage in an area around you. If you have Blade Vortex blades orbiting you, it will detonate each of them in turn, dealing damage again in an area around you for each one."
     ]
   },
   {
@@ -1975,22 +1190,6 @@
   },
   {
     "Skill Gem": [
-      "Blade Flurry of Incision"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Attack",
-      "AoE",
-      "Channelling",
-      "Physical",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Repeatedly hit enemies in a circle in front of you while channelling, dealing damage to and around the enemy. The critical strike chance is continually boosted while channelling. You unleash an additional hit for each stage reached once the channelling ends. Requires a Dagger, Claw or One-Handed Sword."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Blade Trap"
     ],
     "Skill Gem Tags": [
@@ -2000,34 +1199,6 @@
     ],
     "Skill Gem Description": [
       "Throws a trap which, once triggered, swings two copies of your equipped Dagger, Claw or One Handed Sword around it in circles, each repeatedly damaging enemies it spins through."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Blade Trap of Greatswords"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Attack",
-      "AoE",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap which, once triggered, swings two copies of your equipped Two Handed Sword around it in circles for a duration, each repeatedly damaging enemies it spins through"
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Blade Trap of Laceration"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Attack",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap which, once triggered, swings two copies of your equipped Dagger, Claw or One Handed Sword around it in a circle, each damaging enemies it spins through."
     ]
   },
   {
@@ -2046,20 +1217,6 @@
   },
   {
     "Skill Gem": [
-      "Blade Vortex of the Scythe"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "This spell creates a swarm of ethereal blades which briefly orbit in an area around you, dealing damage every 0.6 seconds to all enemies in their radius."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Bladefall"
     ],
     "Skill Gem Tags": [
@@ -2070,34 +1227,6 @@
     ],
     "Skill Gem Description": [
       "Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys. Enemies can be hit multiple times where these overlap."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Bladefall of Impaling"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Spell",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys. Enemies can be hit multiple times where these overlap."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Bladefall of Volleys"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Spell",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of volleys, each wider and more damaging than the last. Enemies can be hit multiple times where these overlap."
     ]
   },
   {
@@ -2133,39 +1262,6 @@
   },
   {
     "Skill Gem": [
-      "Blink Arrow of Bombarding Clones"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Minion",
-      "Duration",
-      "Movement",
-      "Travel",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow at the target destination. When the arrow lands, you are teleported to it and a clone is summoned at your old location. The clone is a minion that uses your bow and quiver to fire arrows into the air to land around a target."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Blink Arrow of Prismatic Clones"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Minion",
-      "Duration",
-      "Movement",
-      "Travel",
-      "Prismatic",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow at the target destination. When the arrow lands, you are teleported to it and a clone is summoned at your old location. The clone is a minion that uses your bow and quiver to fire random elemental arrows."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Blood Rage"
     ],
     "Skill Gem Tags": [
@@ -2193,20 +1289,6 @@
   },
   {
     "Skill Gem": [
-      "Burning Arrow of Vigour"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Fire",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires a burning arrow that deals fire damage and has a chance to ignite."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Caustic Arrow"
     ],
     "Skill Gem Tags": [
@@ -2219,21 +1301,6 @@
     ],
     "Skill Gem Description": [
       "Fires an arrow which deals chaos damage in an area on impact, and spreads caustic ground. Enemies standing on the caustic ground take chaos damage over time."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Caustic Arrow of Poison"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Chaos",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires a poisonous arrow which deals chaos damage in an area on impact."
     ]
   },
   {
@@ -2283,55 +1350,7 @@
   },
   {
     "Skill Gem": [
-      "Cremation of Exhuming"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Duration",
-      "Projectile",
-      "Orb"
-    ],
-    "Skill Gem Description": [
-      "A targeted corpse explodes, dealing area damage and turning into a volcanic geyser, which will repeatedly unleash projectiles sequentially over the surrounding area and detonate nearby corpses for a duration. Corpse explosions are not affected by modifiers to spell damage, and cannot be reflected."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Cremation of the Volcano"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Duration",
-      "Projectile",
-      "Orb"
-    ],
-    "Skill Gem Description": [
-      "Creates a volcanic geyser at a location, which will repeatedly unleash projectiles sequentially over the surrounding area for a duration."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Cyclone"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Movement",
-      "Channelling",
-      "Physical",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Channel this skill to move towards a targeted location while spinning constantly attacking enemies in an area around you. While channelling this skill, you cannot be knocked back."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Cyclone of Tumult"
     ],
     "Skill Gem Tags": [
       "Attack",
@@ -2388,32 +1407,6 @@
   },
   {
     "Skill Gem": [
-      "Detonate Dead of Chain Reaction"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. This will continue to target other corpses in the area, with a shorter delay between each one, until it runs out of corpses or has destroyed 8 corpses."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Detonate Dead of Scavenging"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Targets a corpse, causing it to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. Cannot target corpses that have been created by skills."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Double Strike"
     ],
     "Skill Gem Tags": [
@@ -2428,33 +1421,6 @@
   },
   {
     "Skill Gem": [
-      "Double Strike of Impaling"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Performs two fast strikes with a melee weapon."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Double Strike of Momentum"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike"
-    ],
-    "Skill Gem Description": [
-      "Performs two fast strikes with a melee weapon, gaining stages which cause this skill to attack faster. All stages are lost when you move."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Dual Strike"
     ],
     "Skill Gem Tags": [
@@ -2465,19 +1431,6 @@
     ],
     "Skill Gem Description": [
       "Attacks with both weapons, dealing the damage of both in one strike. Dual wield only. Does not work with wands."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Dual Strike of Ambidexterity"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike"
-    ],
-    "Skill Gem Description": [
-      "Attacks with both weapons, dealing the damage of both in one strike. Requires dual-wielding two different melee weapon types to use."
     ]
   },
   {
@@ -2529,33 +1482,6 @@
   },
   {
     "Skill Gem": [
-      "Ethereal Knives of Lingering Blades"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Physical",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Fires an arc of knives down into the ground in front of the caster which deal physical damage. Cannot be supported by Volley."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Ethereal Knives of the Massacre"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Fires a circle of knives outwards around the caster which deal physical damage."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Explosive Arrow"
     ],
     "Skill Gem Tags": [
@@ -2588,53 +1514,7 @@
   },
   {
     "Skill Gem": [
-      "Explosive Concoction of Destruction"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Attack",
-      "AoE",
-      "Fire",
-      "Cold",
-      "Lightning",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Throws a bottle that explodes to deal unarmed attack damage in an area. Can consume charges from your Ruby, Sapphire, and Topaz flasks to add further damage. Requires an empty main hand, and no off-hand weapon."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Explosive Trap"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "AoE",
-      "Fire",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that creates an explosion when triggered, dealing spell damage in an area around it. A number of smaller explosions occur within a secondary area around the trap in quick succession after the first."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Explosive Trap of Magnitude"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that creates a large explosion when triggered, dealing spell damage in an area around it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Explosive Trap of Shrapnel"
     ],
     "Skill Gem Tags": [
       "Trap",
@@ -2660,21 +1540,6 @@
     ],
     "Skill Gem Description": [
       "Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies and leaving an area of burning ground that damages enemies who walk through it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Fire Trap of Blasting"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "Duration",
-      "AoE",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies."
     ]
   },
   {
@@ -2709,38 +1574,7 @@
   },
   {
     "Skill Gem": [
-      "Flicker Strike of Power"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Attack",
-      "Melee",
-      "Strike",
-      "Movement",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Teleports the character to a nearby monster and attacks with a melee weapon. If no specific monster is targeted, one is picked at random. Grants a buff that increases movement speed for a duration. The cooldown can be bypassed by expending a Power Charge."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Frenzy"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Melee",
-      "Strike",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Performs an attack that gives the character a frenzy charge if it hits. Frenzy charges increase your attack speed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Frenzy of Onslaught"
     ],
     "Skill Gem Tags": [
       "Attack",
@@ -2770,22 +1604,6 @@
   },
   {
     "Skill Gem": [
-      "Frost Blades of Katabasis"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Cold",
-      "AoE",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Attack enemies with greatly increased range, creating a chilling area that deals cold damage over time if it hits. Requires a Melee Weapon."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Galvanic Arrow"
     ],
     "Skill Gem Tags": [
@@ -2797,35 +1615,6 @@
     ],
     "Skill Gem Description": [
       "Fire a trio of electrical arrows that quickly dissipate, vanishing shortly after being loosed. The arrows are fired with such force that they create a burst of lightning, damaging enemies in a cone in front of you."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Galvanic Arrow of Energy"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Attack",
-      "AoE",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Create a burst of lightning from your Bow, firing no arrows but damaging enemies in a cone in front of you."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Galvanic Arrow of Surging"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fire a trio of electrical arrows that quickly dissipate, vanishing shortly after being loosed. If the arrows' flight is stopped by colliding with a target, they create a burst of lightning, damaging enemies in a cone behind the target"
     ]
   },
   {
@@ -2928,20 +1717,6 @@
   },
   {
     "Skill Gem": [
-      "Ice Trap of Hollowness"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "AoE",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that creates a series of icy runic explosions in a circle around itself when triggered, dealing cold damage to all enemies caught in the blasts."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Intuitive Link"
     ],
     "Skill Gem Tags": [
@@ -2970,33 +1745,6 @@
   },
   {
     "Skill Gem": [
-      "Lacerate of Butchering"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slashes twice, releasing wide waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both. Requires a Two Handed Axe or Two Handed Sword."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lacerate of Haemorrhage"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Physical",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Slashes twice, releasing waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both. Requires a One Handed Axe or One Handed Sword."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Lancing Steel"
     ],
     "Skill Gem Tags": [
@@ -3006,19 +1754,6 @@
     ],
     "Skill Gem Description": [
       "Thrust an Axe or Sword forward, consuming your Steel Shards to form a cluster of shards in front of you. The cluster will fire a number of projectiles in sequence, aiming at enemies in front of or close to it. Steel Shards are gained with the Call of Steel Skill."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lancing Steel of Spraying"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Thrust an Axe or Sword forward to form a cluster of shards in front of you. The cluster will fire a number of projectiles in sequence, aiming at enemies in front of or close to it."
     ]
   },
   {
@@ -3038,20 +1773,6 @@
   },
   {
     "Skill Gem": [
-      "Lightning Arrow of Electrocution"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Lightning",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires a charged arrow which damages enemies by causing them to be struck by a bolt of lightning. It sticks into the final target, causing them to be struck and damaged multiple times."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Lightning Strike"
     ],
     "Skill Gem Tags": [
@@ -3063,22 +1784,6 @@
     ],
     "Skill Gem Description": [
       "Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as projectiles as you strike, flying out to hit farther-away enemies. The projectiles cannot miss if the melee attack hit a target."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lightning Strike of Arcing"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Melee",
-      "Strike",
-      "Lightning",
-      "Chaining"
-    ],
-    "Skill Gem Description": [
-      "Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as a projectile as you strike, flying out to hit farther-away enemies and chain between them. The projectile cannot miss if the melee attack hit a target."
     ]
   },
   {
@@ -3095,39 +1800,6 @@
     ],
     "Skill Gem Description": [
       "Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Mirror Arrow of Bombarding Clones"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Minion",
-      "Duration",
-      "Movement",
-      "Travel",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver to fire arrows into the air to land around a target."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Mirror Arrow of Prismatic Clones"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Minion",
-      "Duration",
-      "Movement",
-      "Travel",
-      "Prismatic",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver to fire random elemental arrows."
     ]
   },
   {
@@ -3263,48 +1935,7 @@
   },
   {
     "Skill Gem": [
-      "Rain of Arrows of Artillery"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires multiple arrows into the air, to land in sequence after a delay, starting in front of you and proceeding in a line in the direction of the target. Each arrow deals damage in an area around it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Rain of Arrows of Saturation"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires multiple arrows into the air, to slowly land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Reave"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Attacks an area in front of you. Each Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Reave of Refraction"
     ],
     "Skill Gem Tags": [
       "Attack",
@@ -3347,20 +1978,6 @@
   },
   {
     "Skill Gem": [
-      "Scourge Arrow of Menace"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Chaos",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fire an arrow that leaves a spore pod in its wake. The spore pod blooms, firing thorn arrows, which travel for a short time before dissipating. Modifiers that cause additional projectiles to be fired will only apply to the initial arrows, each of which leaves its own spore pod."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Seismic Trap"
     ],
     "Skill Gem Tags": [
@@ -3376,20 +1993,6 @@
   },
   {
     "Skill Gem": [
-      "Seismic Trap of Swells"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap which, once triggered, releases a number of waves. Each wave deals damage in a series of small bursts in a line, ending with a larger burst."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Shattering Steel"
     ],
     "Skill Gem Tags": [
@@ -3400,21 +2003,6 @@
     ],
     "Skill Gem Description": [
       "Swing an Axe or Sword, firing projectiles which shatter on impact or soon after being launched, dealing area damage in front of where they shatter."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Shattering Steel of Ammunition"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Physical",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Swing an Axe or Sword, consuming Steel Shards to gain a Steel Ward that protects you for a duration, and fire projectiles which shatter on impact or soon after being launched, dealing area damage in front of where they shatter. Steel Shards are gained with the Call of Steel Skill."
     ]
   },
   {
@@ -3434,21 +2022,6 @@
   },
   {
     "Skill Gem": [
-      "Shrapnel Ballista of Steel"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Totem",
-      "Physical",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Summons a ballista totem that consumes your Steel Shards to fire multiple arrows with extreme force, breaking them apart into shrapnel. Enemies can be hit by multiple arrows from the same attack. Requires a Bow. Steel Shards are gained with the Call of Steel Skill."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Siege Ballista"
     ],
     "Skill Gem Tags": [
@@ -3459,20 +2032,6 @@
     ],
     "Skill Gem Description": [
       "Summons a ballista totem that attacks with piercing arrows. Requires a Bow."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Siege Ballista of Splintering"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Totem",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Summons a ballista totem that attacks with forking arrows. Requires a Bow."
     ]
   },
   {
@@ -3547,19 +2106,6 @@
   },
   {
     "Skill Gem": [
-      "Spectral Shield Throw of Shattering"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Throws a spectral copy of your shield as a projectile which cannot pierce, and deals off-hand damage augmented by the evasion of the shield. When it collides with something it will shatter, launching a number of smaller shards as projectiles in all directions. Modifiers that cause additional projectiles to be fired will add more shards, not more copies of the shield."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Spectral Throw"
     ],
     "Skill Gem Tags": [
@@ -3568,18 +2114,6 @@
     ],
     "Skill Gem Description": [
       "Throws a spectral copy of your melee weapon. It flies out and then returns to you, in a spinning attack that damages enemies in its path."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Spectral Throw of Materialising"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Throws an intangible spectral copy of your melee weapon. It flies out and then becomes tangible as it returns to you, in a spinning attack that only hits and damages enemies while returning."
     ]
   },
   {
@@ -3598,19 +2132,6 @@
   },
   {
     "Skill Gem": [
-      "Split Arrow of Splitting"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow that splits to hit different targets."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Splitting Steel"
     ],
     "Skill Gem Tags": [
@@ -3625,51 +2146,7 @@
   },
   {
     "Skill Gem": [
-      "Splitting Steel of Ammunition"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Consume Steel Shards to fire a single projectile that splits on impact or at the targeted location, dealing area damage when it splits and again when the split projectiles explode at the end of their flight. Requires a Sword or Axe. Steel Shards are gained with the Call of Steel Skill."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Storm Rain"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Lightning",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow into the air to land at a targeted location, dealing area damage. The arrow sticks in the ground where it lands, and periodically fires a beam of lightning to another arrow near it, dealing area damage between them."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Storm Rain of the Conduit"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Lightning",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow into the air to land at a targeted location, dealing area damage. The arrow sticks in the ground where it lands, and periodically fires a beam of lightning to you, dealing area damage between the arrow and you."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Storm Rain of the Fence"
     ],
     "Skill Gem Tags": [
       "Attack",
@@ -3695,34 +2172,6 @@
     ],
     "Skill Gem Description": [
       "Summons an Ice Golem that grants you increased Critical Strike Chance and Accuracy. The Ice Golem can use an icy barrage spell and a chilling spinning attack in addition to its melee attack."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Ice Golem of Hordes"
-    ],
-    "Skill Gem Tags": [
-      "Cold",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons an Ice Golem. The Ice Golem can use an icy barrage spell and a chilling spinning attack in addition to its melee attack."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Ice Golem of Shattering"
-    ],
-    "Skill Gem Tags": [
-      "Cold",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons an Ice Golem. The Ice Golem can use an icy barrage spell and a chilling spinning attack in addition to its melee attack. If reduced to low life it will trigger a spell that destroys itself to deal area damage and fire icy projectiles in a circle."
     ]
   },
   {
@@ -3781,19 +2230,6 @@
   },
   {
     "Skill Gem": [
-      "Tornado Shot of Cloudburst"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires a single payload arrow into the air to land at a targeted location. It will then fire arrows out in all directions from that point."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Toxic Rain"
     ],
     "Skill Gem Tags": [
@@ -3810,38 +2246,6 @@
   },
   {
     "Skill Gem": [
-      "Toxic Rain of Sporeburst"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Chaos",
-      "Duration",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod slows the movement speed of nearby enemies. The pods last for a duration before bursting, dealing area damage."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Toxic Rain of Withering"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Chaos",
-      "Duration",
-      "Projectile",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod deals chaos damage over time to nearby enemies and withers them, causing them to take increased chaos damage. The pods last for a duration before bursting, dealing area damage."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Unearth"
     ],
     "Skill Gem Tags": [
@@ -3852,317 +2256,6 @@
     ],
     "Skill Gem Description": [
       "Fires a projectile that will pierce through enemies to impact the ground at the targeted location, creating a Bone Archer corpse where it lands."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Animate Weapon"
-    ],
-    "Skill Gem Tags": [
-      "Duration",
-      "Minion",
-      "Spell",
-      "Vaal",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Animates multiple Melee Weapon Items and Lingering Blades to fight by your side, and transforms them into different, unique weapons. You cannot animate unidentified Weapons. Will not animate weapons with 6 sockets. Cannot be used by Traps or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Arctic Armour"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Duration",
-      "Cold",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Immediately encases you in ice, protecting you for a duration or until you take damage from a number of hits, and also grants a buff once the cast time has finished. You cannot move or perform non-instant actions while in the ice. When the ice breaks, the buff is also removed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Blade Flurry"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Channelling",
-      "Physical",
-      "Vaal",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Channel to create an expanding circle area around you that blinds enemies within it. When you stop channelling, deals damage in a smaller area around each enemy in the circle. Requires a Dagger, Claw or One-Handed Sword."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Blade Vortex"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Creates an independently-moving vortex of ethereal blades which lasts for a duration. The vortex moves toward nearby enemies, repeatedly damaging enemies that it passes through."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Burning Arrow"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Vaal",
-      "Fire",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow that explodes, dealing fire damage to its target and other nearby enemies, with an increased chance of igniting them."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Caustic Arrow"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Duration",
-      "Chaos",
-      "Vaal",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires a slow-moving serpentine arrow which deals chaos damage while piercing enemies, and leaves a trail of caustic ground. Enemies standing on the caustic ground take chaos damage over time."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Cyclone"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Melee",
-      "Movement",
-      "Channelling",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Spin and attack in place, damaging nearby enemies and pulling others towards you. While using this skill, you cannot be stunned or knocked back. Cannot be supported by Ruthless."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Detonate Dead"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Vaal",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. This will continue to target other corpses in the area, with an increasing delay between each one, until it runs out of corpses or has destroyed 22 corpses."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Double Strike"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Duration",
-      "Vaal",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Performs two fast strikes with a melee weapon, each of which summons a double of you for a duration to continuously attack monsters in this fashion."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Flicker Strike"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Movement",
-      "Vaal",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Repeatedly teleports to enemies and hits them, inflicting a wound but dealing no damage. After the repeating finishes, each enemy is hit by the total damage of their wounds, which are removed."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Grace"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Casts a temporary aura that grants you and your allies additional chance to evade attacks, and makes suppressed spell damage unlucky against you."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Haste"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Casts a temporary aura that increases the movement speed, attack speed and cast speed of you and your allies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Ice Shot"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "AoE",
-      "Cold",
-      "Vaal",
-      "Duration",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires an arrow that converts some physical damage to cold on its target and converts all physical damage to cold in a cone behind that target. When you use this skill, it summons a squad of Mirage Sharpshooters for a duration. Cannot be used by Totems, Traps, or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Impurity of Ice"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Casts an aura that reduces cold damage taken and provides freeze and chill immunity to you and nearby allies, and makes hits against nearby enemies ignore their cold resistance."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Lightning Arrow"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Projectile",
-      "Lightning",
-      "Vaal",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires charged arrows, which repeatedly travel for a short time before changing direction. When they hit enemies, they are struck by a bolt of lightning which damages a number of surrounding enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Lightning Strike"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Duration",
-      "Vaal",
-      "Lightning",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy becomes an orb attached to the enemy you hit, or the ground if you don't hit an enemy. The orb will periodically fire projectiles at other nearby enemies for a duration, which will also damage the enemy the orb is attached to."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Rain of Arrows"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Projectile",
-      "Vaal",
-      "Bow"
-    ],
-    "Skill Gem Description": [
-      "Fires multiple arrows into the air, to land in multiple sequences after a delay, each starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Reave"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "AoE",
-      "Vaal",
-      "Melee"
-    ],
-    "Skill Gem Description": [
-      "Repeatedly attacks a large area in different directions. Each Vaal Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Spectral Throw"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Throws several spectral copies of your melee weapon. They fly out and then return to you, in a spinning attack that damages enemies in their path."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Venom Gyre"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile",
-      "Chaos",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Creates already-caught projectiles without firing them first, both immediately and over a secondary duration. Caught projectiles spiral outwards when you use Whirling Blades and do not return. Requires a Dagger or Claw."
     ]
   },
   {
@@ -4209,49 +2302,7 @@
   },
   {
     "Skill Gem": [
-      "Viper Strike of the Mamba"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Duration",
-      "Melee",
-      "Strike",
-      "Chaos"
-    ],
-    "Skill Gem Description": [
-      "Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, deals the damage of both weapons in one strike. Requires a claw, dagger or sword."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Volatile Dead"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Corpses near the targeted location explode, dealing damage in a small area and creating an orb which moves towards nearby enemies before dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Volatile Dead of Confinement"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Corpses near the targeted location explode, dealing damage in a small area and creating an orb which detonates after a duration, dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Volatile Dead of Seething"
     ],
     "Skill Gem Tags": [
       "Spell",
@@ -4279,26 +2330,6 @@
   {
     "Skill Gem": [
       "Wild Strike"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Melee",
-      "Strike",
-      "Lightning",
-      "Cold",
-      "Fire",
-      "Projectile",
-      "AoE",
-      "Chaining",
-      "Prismatic"
-    ],
-    "Skill Gem Description": [
-      "Your melee weapon strikes enemies, converting physical damage to a random element. Then, depending on the element chosen, it releases a fiery explosion, an arcing bolt of lightning, or an icy wave. It will avoid choosing the same element twice in a row."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Wild Strike of Extremes"
     ],
     "Skill Gem Tags": [
       "Attack",
@@ -4348,31 +2379,6 @@
   },
   {
     "Skill Gem": [
-      "Arc of Oscillating"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Chaining",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "An arc of lightning reaches from the caster to a targeted enemy and chains to other enemies. Each time the arc chains, it will also chain a secondary arc to another enemy, but this secondary arc cannot chain further."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Arc of Surging"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "An arc of lightning reaches from the caster to a targeted enemy and splits to simultaneously hit several other enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Arcane Cloak"
     ],
     "Skill Gem Tags": [
@@ -4417,36 +2423,6 @@
   },
   {
     "Skill Gem": [
-      "Armageddon Brand of Recall"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Duration",
-      "Brand"
-    ],
-    "Skill Gem Description": [
-      "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, causing a fiery meteor to fall from the sky. The brand will detach if the enemy dies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Armageddon Brand of Volatility"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Duration",
-      "Brand"
-    ],
-    "Skill Gem Description": [
-      "Creates a magical brand which can attach to a nearby enemy. It activates once, causing a fiery meteor to fall from the sky, then is destroyed."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Assassin's Mark"
     ],
     "Skill Gem Tags": [
@@ -4475,34 +2451,6 @@
   },
   {
     "Skill Gem": [
-      "Ball Lightning of Orbiting"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "AoE",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Fires a single projectile which moves in a spiral while damaging each enemy in an area around it repeatedly with bolts of lightning."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Ball Lightning of Static"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Lightning",
-      "Orb"
-    ],
-    "Skill Gem Description": [
-      "Creates a ball of lightning at a location that damages each enemy in an area around it repeatedly with bolts of lightning. Cannot be supported by Spell Echo."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Bane"
     ],
     "Skill Gem Tags": [
@@ -4515,22 +2463,6 @@
     ],
     "Skill Gem Description": [
       "Applies a debuff to enemies in an area, which deals chaos damage over Time. Linked hex curses are also applied to those enemies. The debuff deals more damage and lasts longer for each hex applied this way.  This skill cannot be used by Totems, Traps, or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Bane of Condemnation"
-    ],
-    "Skill Gem Tags": [
-      "Chaos",
-      "Trigger",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Hex"
-    ],
-    "Skill Gem Description": [
-      "Applies a debuff to enemies in a small area, which deals chaos damage over Time. Linked hex curses are also applied to those enemies. The debuff deals more damage and lasts longer for each hex applied this way.  This skill cannot be used by Totems, Traps, or Mines."
     ]
   },
   {
@@ -4564,36 +2496,6 @@
   },
   {
     "Skill Gem": [
-      "Blight of Atrophy"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Chaos",
-      "AoE",
-      "Channelling",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a longer secondary duration, slowing their movement and reducing their life regeneration rate. Continued channelling adds layers of damage to the debuff, each with their own duration."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Blight of Contagion"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Chaos",
-      "AoE",
-      "Channelling",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a shorter secondary duration, slowing their movement. Continued channelling adds layers of damage to the debuff, each with their own duration. The damaging debuff is spread by Contagion."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Bodyswap"
     ],
     "Skill Gem Tags": [
@@ -4605,22 +2507,6 @@
     ],
     "Skill Gem Description": [
       "Violently destroys your body and recreates it at the location of a targeted enemy or corpse, dealing spell damage in an area at both locations. If there is no specific target, it will prioritise corpses over enemies. If targeting a corpse, the corpse will also explode, dealing damage around it that is not affected by modifiers to spell damage, and cannot be reflected. This spell cannot be repeated."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Bodyswap of Sacrifice"
-    ],
-    "Skill Gem Tags": [
-      "Movement",
-      "Spell",
-      "AoE",
-      "Fire",
-      "Travel",
-      "Minion"
-    ],
-    "Skill Gem Description": [
-      "Violently destroys your body and recreates it at the location of a targeted enemy or damageable minion, dealing spell damage in an area at both locations. If there is no specific target, it will prioritise minions over enemies. If targeting a minion, the minion will also be destroyed in an explosion which deals damage around it that is not affected by modifiers to spell damage, and cannot be reflected. This spell cannot be repeated."
     ]
   },
   {
@@ -4677,20 +2563,6 @@
   },
   {
     "Skill Gem": [
-      "Cold Snap of Power"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Spell",
-      "AoE",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Creates a sudden burst of cold in a targeted area, damaging enemies. The cooldown can be bypassed by expending a Power Charge."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Conductivity"
     ],
     "Skill Gem Tags": [
@@ -4717,34 +2589,6 @@
     ],
     "Skill Gem Description": [
       "Unleashes a vile contagion on enemies, dealing chaos damage over time. If an enemy dies while affected by Contagion, the debuff spreads to other enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Contagion of Subsiding"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Chaos"
-    ],
-    "Skill Gem Description": [
-      "Unleashes a vile contagion on enemies, dealing chaos damage over time. If an enemy dies while affected by Contagion, the debuff spreads to other enemies, but each time it spreads, it only deals three quarters as much damage as before."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Contagion of Transference"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Chaos"
-    ],
-    "Skill Gem Description": [
-      "Unleashes a vile contagion on enemies, dealing chaos damage over time. If an enemy is hit while affected by Contagion, the debuff spreads to other enemies."
     ]
   },
   {
@@ -4784,32 +2628,6 @@
     ],
     "Skill Gem Description": [
       "Release a beam which deals lightning damage to enemies in a long area in front of you, and has several smaller beams branch off from it at an angle, hitting more enemies to the sides."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Crackling Lance of Branching"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Release a beam which deals lightning damage to enemies in a long area in front of you, and has several smaller beams branch off from it at an angle, hitting more enemies to the sides."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Crackling Lance of Disintegration"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Release a concentrated beam which deals lightning damage to enemies in a long area in front of you."
     ]
   },
   {
@@ -4891,22 +2709,6 @@
   },
   {
     "Skill Gem": [
-      "Discharge of Misery"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Cold",
-      "Lightning",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "Discharge all the character's charges to deal elemental damage to all nearby monsters."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Discipline"
     ],
     "Skill Gem Tags": [
@@ -4931,36 +2733,6 @@
     ],
     "Skill Gem Description": [
       "Channelling draws in energy around you to repeatedly build up stages, damaging a number of nearby enemies when you do so. Release to unleash this energy in a burst around you and a beam in front of you. Modifiers to area of effect do not affect the beam. Maximum of 10 Stages."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Divine Ire of Disintegration"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Spell",
-      "AoE",
-      "Channelling",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Channelling draws in energy around you to repeatedly build up stages. Release to unleash this energy in a beam in front of you. Modifiers to area of effect do not affect this skill. Maximum of 10 Stages."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Divine Ire of Holy Lightning"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Spell",
-      "AoE",
-      "Channelling",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Channelling draws in energy around you to repeatedly build up stages, damaging a number of nearby enemies when you do so. Release to unleash this energy in a powerful burst around you. Maximum of 10 Stages."
     ]
   },
   {
@@ -5022,36 +2794,6 @@
   },
   {
     "Skill Gem": [
-      "Essence Drain of Desperation"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Duration",
-      "Chaos",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Fires a projectile that applies a damage over time debuff when it hits. You lose Life and Energy Shield equal to a portion of the debuff damage. The debuff is spread by Contagion."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Essence Drain of Wickedness"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Duration",
-      "Chaos",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Fires a piercing projectile that applies a damage over time debuff when it hits. You are healed for a portion of the debuff damage."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Eye of Winter"
     ],
     "Skill Gem Tags": [
@@ -5061,32 +2803,6 @@
     ],
     "Skill Gem Description": [
       "Fires a single eye projectile which constantly releases shard projectiles in a spiral. The shards will damage enemies they impact, dealing cold damage. The eye cannot damage enemies. When the eye dissipates or collides with terrain, it releases a faster spiral of extra shards."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Eye of Winter of Finality"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Fires a single eye projectile which cannot damage enemies. When the eye dissipates or collides with terrain, it releases a fast spiral of shards. The shards will deal cold damage to enemies they impact."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Eye of Winter of Transience"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Fires a single eye projectile which releases a number shard projectiles in a spiral before dissipating. The shards will damage enemies they impact, dealing cold damage. The eye cannot damage enemies."
     ]
   },
   {
@@ -5119,33 +2835,6 @@
   },
   {
     "Skill Gem": [
-      "Firestorm of Meteors"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "A large flaming bolt falls towards the targeted area. The bolt explodes when landing, dealing damage to nearby enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Firestorm of Pelting"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Flame Dash"
     ],
     "Skill Gem Tags": [
@@ -5162,20 +2851,6 @@
   },
   {
     "Skill Gem": [
-      "Flame Dash of Return"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Movement",
-      "Duration",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Teleport to a location, damaging enemies and leaving a trail of burning ground, then repeat the teleport in the other direction. Cannot be triggered, or used by a totem, trap or mine."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Flame Surge"
     ],
     "Skill Gem Tags": [
@@ -5186,20 +2861,6 @@
     ],
     "Skill Gem Description": [
       "Strikes enemies in front of you with a surge of flame. Burning enemies are dealt more damage. If you hit an ignited enemy, will create burning ground under them. Your damage modifiers don't apply to this burning ground."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Flame Surge of Combusting"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Strikes enemies in front of you with a surge of flame. If this ignites an enemy a large area of burning ground will be created under them. Your damage modifiers don't apply to this burning ground."
     ]
   },
   {
@@ -5228,34 +2889,6 @@
     ],
     "Skill Gem Description": [
       "Channels to build up a large explosion, which is released when you stop using the skill. The longer you channel, the larger the area of effect and damage of the explosion."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Flameblast of Celerity"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "Channels to build up an explosion, which is released when you stop using the skill or automatically at maximum stages. The longer you channel, the larger the area of effect and damage of the explosion."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Flameblast of Contraction"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "Channels to concentrate an explosion, which is released when you stop using the skill. The longer you channel, the larger the damage of the explosion, but the smaller the area."
     ]
   },
   {
@@ -5303,20 +2936,6 @@
   },
   {
     "Skill Gem": [
-      "Forbidden Rite of Soul Sacrifice"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Chaos",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Lobs an exploding projectile near the targeted location, and extra projectiles toward enemies around you. The projectiles deal chaos damage based on your energy shield. Casting this spell damages you."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Freezing Pulse"
     ],
     "Skill Gem Tags": [
@@ -5341,34 +2960,6 @@
     ],
     "Skill Gem Description": [
       "Creates a crystal that pulses with cold for a duration. Each pulse applies a debuff to nearby enemies for a secondary duration which reduces life regeneration rate, and also inflicts Cold Exposure. When the crystal's duration ends, it explodes, dealing heavy cold damage to enemies around it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Frost Bomb of Forthcoming"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Creates a crystal which lasts for a duration. When the crystal's duration ends, it explodes, dealing heavy cold damage to enemies around it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Frost Bomb of Instability"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Creates a crystal which lasts for a duration. When the crystal's duration ends, it explodes, dealing cold damage to enemies around it."
     ]
   },
   {
@@ -5434,21 +3025,6 @@
   },
   {
     "Skill Gem": [
-      "Frostblink of Wintry Blast"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Movement",
-      "Cold",
-      "Travel",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Teleport to a location, damaging enemies in an area at both ends of the teleport. Deals higher damage to chilled enemies, then removes chill from them. Cannot be supported by Unleash."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Frostbolt"
     ],
     "Skill Gem Tags": [
@@ -5478,22 +3054,6 @@
   },
   {
     "Skill Gem": [
-      "Galvanic Field of Intensity"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Lightning",
-      "Chaining",
-      "Orb"
-    ],
-    "Skill Gem Description": [
-      "Applies a buff boosting chance to shock. When you shock an enemy while you have this buff, creates a spherical field of energy attached to the shocked enemy for a duration, which will damage it and other nearby enemies with beams of lightning."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Glacial Cascade"
     ],
     "Skill Gem Tags": [
@@ -5504,20 +3064,6 @@
     ],
     "Skill Gem Description": [
       "Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area and knocking them back in the direction of the next burst."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Glacial Cascade of the Fissure"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Cold",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area."
     ]
   },
   {
@@ -5547,34 +3093,6 @@
     ],
     "Skill Gem Description": [
       "Deals chaos damage to a single enemy, dealing more damage if they are Hexed, then removing the Hex. If the enemy was Hexed, also deals area damage to other enemies around the target, boosting damage and removing Hexes from those enemies in the same way."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Hexblast of Contradiction"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Chaos",
-      "Hex"
-    ],
-    "Skill Gem Description": [
-      "Deals chaos damage to a single enemy, dealing more damage if they are Hexed, then removing the Hex. If the enemy was Hexed, also deals area damage to other enemies around the target, boosting damage and removing Hexes from those enemies in the same way."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Hexblast of Havoc"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Chaos",
-      "Hex"
-    ],
-    "Skill Gem Description": [
-      "Deals chaos damage to a single enemy. If the enemy was Hexed, also deals area damage to other enemies around the target."
     ]
   },
   {
@@ -5610,34 +3128,6 @@
   },
   {
     "Skill Gem": [
-      "Ice Nova of Deep Freeze"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Cold",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "A circle of ice expands from the caster."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Ice Nova of Frostbolts"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Cold",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "A circle of ice expands from the caster. If the caster targets near their Frostbolt projectiles, it will expand from a number of those projectiles instead. If this skill would repeat when cast this way, it will instead expand again from the same projectiles after a short delay."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Ice Spear"
     ],
     "Skill Gem Tags": [
@@ -5652,54 +3142,7 @@
   },
   {
     "Skill Gem": [
-      "Ice Spear of Splitting"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Launches a shard of ice that splits on hitting terrain or enemies. After splitting, the projectiles are in second form, which moves much faster and pierces through enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Icicle Mine"
-    ],
-    "Skill Gem Tags": [
-      "Mine",
-      "Critical",
-      "Spell",
-      "Projectile",
-      "Cold",
-      "Aura",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Throws a mine that fires projectiles around it when detonated. These projectiles quickly dissipate as they travel, before disappearing."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Icicle Mine of Fanning"
-    ],
-    "Skill Gem Tags": [
-      "Mine",
-      "Critical",
-      "Spell",
-      "Projectile",
-      "Cold",
-      "Aura",
-      "AoE"
-    ],
-    "Skill Gem Description": [
-      "Throws a mine that fires projectiles at enemies when detonated. These projectiles quickly dissipate as they travel, before disappearing."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Icicle Mine of Sabotage"
     ],
     "Skill Gem Tags": [
       "Mine",
@@ -5755,18 +3198,6 @@
   },
   {
     "Skill Gem": [
-      "Kinetic Bolt of Fragmentation"
-    ],
-    "Skill Gem Tags": [
-      "Attack",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Fire a projectile from your wand that changes direction in a zig-zag pattern at regular intervals or when hitting enemies. Each time it changes direction, a secondary projectile breaks off, flying in the direction it changed away from. Multiple of these projectiles can hit the same target."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Lightning Conduit"
     ],
     "Skill Gem Tags": [
@@ -5780,54 +3211,11 @@
   },
   {
     "Skill Gem": [
-      "Lightning Conduit of the Heavens"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Lightning strikes a number of enemies around a targeted location. Cannot be supported by Spell Cascade."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Lightning Spire Trap"
     ],
     "Skill Gem Tags": [
       "Trap",
       "Critical",
-      "Spell",
-      "Duration",
-      "AoE",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lightning Spire Trap of Overloading"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Spell",
-      "Duration",
-      "AoE",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap which, once triggered, will repeatedly strike multiple areas around it for a duration, dealing lightning damage."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lightning Spire Trap of Zapping"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
       "Spell",
       "Duration",
       "AoE",
@@ -5854,35 +3242,6 @@
   },
   {
     "Skill Gem": [
-      "Lightning Tendrils of Eccentricity"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Spell",
-      "AoE",
-      "Lightning",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of you."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lightning Tendrils of Escalation"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Lightning",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a growing semicircular area in front of you."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Lightning Trap"
     ],
     "Skill Gem Tags": [
@@ -5894,21 +3253,6 @@
     ],
     "Skill Gem Description": [
       "Throws a trap that launches a ring of projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Lightning Trap of Sparking"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Critical",
-      "Spell",
-      "Projectile",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that launches projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets."
     ]
   },
   {
@@ -5987,38 +3331,6 @@
   },
   {
     "Skill Gem": [
-      "Penance Brand of Conduction"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Physical",
-      "Lightning",
-      "Duration",
-      "Brand"
-    ],
-    "Skill Gem Description": [
-      "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, adding energy to the branded enemy and nearby enemies who do not have energy. When the brand is detached, all enemies with energy are dealt damage."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Penance Brand of Dissipation"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Physical",
-      "Lightning",
-      "Duration",
-      "Brand"
-    ],
-    "Skill Gem Description": [
-      "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, adding energy to the branded enemy and causing a pulse that deals damage to the branded enemy and other nearby enemies. The pulse gains area of effect and damage for each energy on the branded enemy."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Power Siphon"
     ],
     "Skill Gem Tags": [
@@ -6032,35 +3344,7 @@
   },
   {
     "Skill Gem": [
-      "Power Siphon of the Archmage"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Attack",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Fires your wand to fire a single projectile each at a number of nearby enemies, granting you a power charge if an enemy is killed by, or soon after, the hit."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Purifying Flame"
-    ],
-    "Skill Gem Tags": [
-      "Fire",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Physical"
-    ],
-    "Skill Gem Description": [
-      "A wave of divine fire deals damage in a line, then creates Consecrated Ground and deals damage in an area around the targeted location. A larger shockwave then expands outwards, damaging enemies standing on Consecrated Ground that were not already hit."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Purifying Flame of Revelations"
     ],
     "Skill Gem Tags": [
       "Fire",
@@ -6119,23 +3403,6 @@
   },
   {
     "Skill Gem": [
-      "Pyroclast Mine of Sabotage"
-    ],
-    "Skill Gem Tags": [
-      "Mine",
-      "Spell",
-      "Projectile",
-      "Fire",
-      "AoE",
-      "Aura",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "Throws a mine that deals damage in an area when detonated, then launches fiery projectiles that rain down around it, each exploding to deal damage in a smaller area."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Raise Spectre"
     ],
     "Skill Gem Tags": [
@@ -6144,19 +3411,6 @@
     ],
     "Skill Gem Description": [
       "Raises a spectral version of a defeated foe as a minion to fight for you in battle."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Raise Spectre of Transience"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Raises a spectral version of a defeated foe as a temporary minion to fight for you in battle for a duration."
     ]
   },
   {
@@ -6173,30 +3427,6 @@
   },
   {
     "Skill Gem": [
-      "Raise Zombie of Falling"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion"
-    ],
-    "Skill Gem Description": [
-      "Raises necromantic energies into the sky above a targeted location, where they coalese into a zombie minion. The minion then attacks by falling to the ground, causing an impact that deals damage in an area and kills the zombie."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Raise Zombie of Slamming"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion"
-    ],
-    "Skill Gem Description": [
-      "Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee strike and an area of effect slam which cannot be evaded."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Righteous Fire"
     ],
     "Skill Gem Tags": [
@@ -6206,19 +3436,6 @@
     ],
     "Skill Gem Description": [
       "Engulfs you in magical fire that rapidly burns you and nearby enemies. Your spell damage is substantially increased while under this effect. The effect ends when you have 1 life remaining."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Righteous Fire of Arcane Devotion"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Engulfs you in magical fire that rapidly burns you and nearby enemies. The effect ends when you have 1 life remaining."
     ]
   },
   {
@@ -6248,20 +3465,6 @@
     ],
     "Skill Gem Description": [
       "Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Inflicts Fire Exposure at maximum stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Scorching Ray of Immolation"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Fire",
-      "Duration",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "Unleash a beam of fire that burns enemies it touches. Remaining in the beam raises the burning, adding a portion of the beam's damage in stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam turns."
     ]
   },
   {
@@ -6338,34 +3541,6 @@
   },
   {
     "Skill Gem": [
-      "Soulrend of Reaping"
-    ],
-    "Skill Gem Tags": [
-      "Chaos",
-      "Spell",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Fires a projectile that deals chaos damage to enemies it hits and leeches some of that damage as energy shield."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Soulrend of the Spiral"
-    ],
-    "Skill Gem Tags": [
-      "Chaos",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Projectile"
-    ],
-    "Skill Gem Description": [
-      "Fires a series of projectiles in a spiral that turn towards enemies in front of them, damaging and piercing through those they hit, and leeching some of that damage as energy shield. As the projectiles travel, they repeatedly apply a short but powerful chaos damage over time debuff to each enemy in an area around them."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Spark"
     ],
     "Skill Gem Tags": [
@@ -6376,34 +3551,6 @@
     ],
     "Skill Gem Description": [
       "Launches unpredictable sparks that move randomly until they hit an enemy or expire."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Spark of the Nova"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Duration",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Launches unpredictable sparks in all directions that move randomly until they hit an enemy or expire."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Spark of Unpredictability"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Duration",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Launches unpredictable sparks with that move randomly with large differences in speed and distance until they hit an enemy or expire."
     ]
   },
   {
@@ -6445,22 +3592,6 @@
     ],
     "Skill Gem Description": [
       "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, firing beams which deal damage to nearby enemies and those around them. The brand will detach if the enemy dies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Storm Brand of Indecision"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Spell",
-      "AoE",
-      "Chaining",
-      "Duration",
-      "Brand"
-    ],
-    "Skill Gem Description": [
-      "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, firing a beam which deals damage to the branded enemy and those around it. The brand will detach if the enemy dies."
     ]
   },
   {
@@ -6511,25 +3642,6 @@
   },
   {
     "Skill Gem": [
-      "Stormbind of Teleportation"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Channelling",
-      "Lightning",
-      "Duration",
-      "Arcane",
-      "Movement",
-      "Travel",
-      "Blink"
-    ],
-    "Skill Gem Description": [
-      "Channel to spread runes on the ground in a growing pattern. The runes fade away after a duration, or will be immediately removed and deal damage in a circular area when detonated by Rune Blast. Enemies standing on the runes are Hindered, reducing their movement speed."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Stormblast Mine"
     ],
     "Skill Gem Tags": [
@@ -6560,34 +3672,6 @@
   },
   {
     "Skill Gem": [
-      "Summon Carrion Golem of Hordes"
-    ],
-    "Skill Gem Tags": [
-      "Physical",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Carrion Golem. The Carrion Golem attacks with a series of slashes that increase in speed and damage, as well as a cascade of bone spikes."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Carrion Golem of Scavenging"
-    ],
-    "Skill Gem Tags": [
-      "Physical",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Carrion Golem. The Carrion Golem attacks with a series of slashes that increase in speed and damage, can consume corpses to heal itself and gain the ability to unleash a devastating cascade of bone spikes, and deals more damage for each of your non-golem minions near it."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Summon Chaos Golem"
     ],
     "Skill Gem Tags": [
@@ -6598,34 +3682,6 @@
     ],
     "Skill Gem Description": [
       "Summons a Chaos Golem that grants you Physical Damage Reduction. The Chaos Golem can cast a damage over time Chaos aura and a cascade of Chaos spikes in addition to its melee attack."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Chaos Golem of Hordes"
-    ],
-    "Skill Gem Tags": [
-      "Chaos",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Chaos Golem. The Chaos Golem can cast a damage over time Chaos aura and a cascade of Chaos spikes in addition to its melee attack."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Chaos Golem of the Maelstr\u00f6m"
-    ],
-    "Skill Gem Tags": [
-      "Chaos",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Chaos Golem. The Chaos Golem can cast a powerful damage over time Chaos aura that Withers enemies in addition to its melee attack."
     ]
   },
   {
@@ -6656,35 +3712,7 @@
   },
   {
     "Skill Gem": [
-      "Summon Lightning Golem of Hordes"
-    ],
-    "Skill Gem Tags": [
-      "Lightning",
-      "Minion",
-      "Spell",
-      "Golem"
-    ],
-    "Skill Gem Description": [
-      "Summons a Lightning Golem. The Lightning Golem fires a projectile spell, creates orbs of Lightning that zap nearby enemies, and casts a temporary aura that grants added Lightning Damage to spells and attacks used by the Golem and its nearby allies."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Summon Raging Spirit"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly, converting all its physical damage to fire. Enemies will not directly engage these spirits, and can pass through them."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Raging Spirit of Enormity"
     ],
     "Skill Gem Tags": [
       "Spell",
@@ -6711,31 +3739,6 @@
   },
   {
     "Skill Gem": [
-      "Summon Reaper of Eviscerating"
-    ],
-    "Skill Gem Tags": [
-      "Physical",
-      "Minion",
-      "Spell"
-    ],
-    "Skill Gem Description": [
-      "Summons a powerful Reaper which passively follows you without attacking enemies. The Reaper's presence weakens your other minions, and it will consume them to temporarily empower and heal itself. Using this skill while the Reaper is already summoned causes it to dash to the targeted location and perform a powerful attack. Cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Reaper of Revenants"
-    ],
-    "Skill Gem Tags": [
-      "Minion",
-      "Spell"
-    ],
-    "Skill Gem Description": [
-      "Summons a Reaper which uses a variety of slashing area attacks. The presence of any Reapers weakens your other non-Reaper minions, and Reapers will consume them to temporarily empower and heal themselves."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Summon Skeletons"
     ],
     "Skill Gem Tags": [
@@ -6745,33 +3748,6 @@
     ],
     "Skill Gem Description": [
       "Summon Skeleton Warrior minions at the targeted location. They use a melee attack and die after a duration. If made aggressive, Skeleton Warriors will also dash towards nearby enemies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Skeletons of Archers"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Summon Skeleton Archer minions at the targeted location. They fire arrows and die after a duration."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Summon Skeletons of Mages"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration",
-      "Prismatic"
-    ],
-    "Skill Gem Description": [
-      "Summon Skeleton Mage minions of random elemental types at the targeted location. They cast projectile spells based on their element, and die after a duration."
     ]
   },
   {
@@ -6807,266 +3783,7 @@
   },
   {
     "Skill Gem": [
-      "Vaal Arc"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Chaining",
-      "Vaal",
-      "Lightning",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "A shocking arc of lightning reaches from the caster to a targeted enemy and chains to other enemies. Each time the arc chains from an enemy, it will do so simultaneously to two further enemies, but never to enemies that have already been hit by any of these chains. Also grants a buff making your Arc damage lucky for a short duration."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Blight"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Chaos",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Nova",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "Apply a powerful debuff to enemies around you which deals chaos damage over time. Then applies two additional layers in a larger area, growing greatly in size each time. Enemies are also substantially hindered for a shorter secondary duration, slowing their movement."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Clarity"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Casts a temporary aura that lets you and your allies cast skills without paying their mana costs."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Cold Snap"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Cold"
-    ],
-    "Skill Gem Description": [
-      "Creates a sudden burst of cold around you, damaging enemies. This also creates a chilling area around you which expands and deals cold damage over time to surrounding enemies in addition to chilling them. Enemies that die while in the area grant Frenzy Charges, and you will passively gain Frenzy Charges while there are enemies in the area."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Discipline"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Casts a temporary aura that prevents energy shield recharge being delayed by damage taken for you and your allies."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Fireball"
-    ],
-    "Skill Gem Tags": [
-      "Projectile",
-      "Spell",
-      "AoE",
-      "Vaal",
-      "Fire"
-    ],
-    "Skill Gem Description": [
-      "Launches a series of fireballs in a spiral around the caster."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Firestorm"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Fire",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "A fixed number of flaming bolts rain down in a spiral, culminating in the central one impacting the targeted location. They explode when landing, dealing damage to nearby enemies and leaving burning ground, which deals fire damage over time."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Flameblast"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Vaal",
-      "Fire",
-      "Channelling"
-    ],
-    "Skill Gem Description": [
-      "Targets an area and builds up stages in that area based on cast speed. It explodes every 3 stages, until it reaches a maximum of 15. As it gains more stages, the area gets smaller but the damage gets higher."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Ice Nova"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Vaal",
-      "Cold",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "A chilling circle of ice expands from the caster, repeating from every enemy it hits."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Impurity of Lightning"
-    ],
-    "Skill Gem Tags": [
-      "Aura",
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Casts an aura that reduces lightning damage taken and provides shock immunity to you and nearby allies, and makes hits against nearby enemies ignore their lightning resistance."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Lightning Trap"
-    ],
-    "Skill Gem Tags": [
-      "Trap",
-      "Critical",
-      "Spell",
-      "Projectile",
-      "Duration",
-      "Vaal",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Throws a trap that launches a ring of projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets and leaving a trail of shocked ground."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Power Siphon"
-    ],
-    "Skill Gem Tags": [
-      "Critical",
-      "Attack",
-      "Projectile",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Fires your wand simultaneously at all nearby enemies, culling those close to death and granting you a power charge for each. Cannot be supported by Volley."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Righteous Fire"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Fire",
-      "Vaal",
-      "Duration"
-    ],
-    "Skill Gem Description": [
-      "Sacrifices a portion of your Life and Energy Shield to engulf you in magical fire that rapidly burns nearby enemies for a duration. Your spell damage is increased while under this effect."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Spark"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Projectile",
-      "Duration",
-      "Vaal",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Continuously launches unpredictable sparks in all directions that move randomly until they hit an enemy or expire."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Storm Call"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Vaal",
-      "Lightning"
-    ],
-    "Skill Gem Description": [
-      "Sets a marker at a location. Lightning strikes random enemies around the marker repeatedly over the skill's duration, dealing damage in an area around the strike. Modifiers to the skill's duration will also affect the delay between these strikes. When the duration ends, a large bolt of lightning strikes the marker, dealing damage around it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vaal Summon Skeletons"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "Minion",
-      "Duration",
-      "Vaal"
-    ],
-    "Skill Gem Description": [
-      "Summons an army of skeletal soldiers, archers and mages, led by a powerful general."
-    ]
-  },
-  {
-    "Skill Gem": [
       "Void Sphere"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Duration",
-      "Physical",
-      "Chaos",
-      "Orb"
-    ],
-    "Skill Gem Description": [
-      "Creates a Void Sphere which Hinders enemies in an area around it, with the debuff being stronger on enemies closer to the sphere. It also regularly releases pulses of area damage. The Void Sphere will consume the corpses of any enemies which die in its area. Can only have one Void Sphere at a time."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Void Sphere of Rending"
     ],
     "Skill Gem Tags": [
       "Spell",
@@ -7109,21 +3826,6 @@
     ],
     "Skill Gem Description": [
       "An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex which deals cold damage over time and chills enemies caught in it."
-    ]
-  },
-  {
-    "Skill Gem": [
-      "Vortex of Projection"
-    ],
-    "Skill Gem Tags": [
-      "Spell",
-      "AoE",
-      "Cold",
-      "Duration",
-      "Nova"
-    ],
-    "Skill Gem Description": [
-      "An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex which deals cold damage over time and chills enemies caught in it. If the caster targets near their Frostbolt projectiles, it will explode from a number of those projectiles instead, destroying them."
     ]
   },
   {
