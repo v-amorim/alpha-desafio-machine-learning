@@ -14,7 +14,8 @@ Neste desafio, proposto pelo programa Alpha EdTech, os participantes deveriam de
 O desafio foi dividido em duas etapas:
 
 1. **Definição do problema e coleta de dados:** Os participantes deveriam definir um problema relevante do mundo real que pudesse ser resolvido com Machine Learning. Em seguida, deveriam coletar dados relevantes para o problema escolhido.
-2. **Desenvolvimento do modelo de Machine Learning:** Os participantes deveriam desenvolver um modelo de Machine Learning que pudesse resolver o problema definido na primeira etapa.
+2. **Implementação do modelo de Machine Learning:** Os participantes deveriam implementar um modelo de Machine Learning que pudesse resolver o problema definido na etapa anterior. O modelo deveria ser implementado em Python e utilizar uma das bibliotecas de Machine Learning disponíveis na internet.
+3.
 
 ## Objetivo
 
