@@ -7,7 +7,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-# from src.reranking import rerank
+from reranking import rerank
 
 app = FastAPI()
 templates = Jinja2Templates(directory='src/app/templates')
@@ -24,8 +24,7 @@ async def receive_input(request: Request):
 
         print(f'Received user input: {user_input}')
 
-        # Substitua a lógica abaixo com o processamento real da entrada do usuário
-        resposta_gerada = 'Resposta gerada pela API'
+        resposta_gerada = rerank(user_input)
 
     except Exception as e:
         print(f'Erro ao processar a entrada do usuário: {str(e)}')

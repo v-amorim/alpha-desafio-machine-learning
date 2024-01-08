@@ -36,7 +36,7 @@
             $("#click").on("click", enviarMensagem);
 
             $("#valorInput").on("keypress", function (event) {
-                if (event.which === 13) {  // Verifica se a tecla pressionada é "Enter"
+                if (event.which === 13) {
                     enviarMensagem();
                 }
             });
@@ -49,10 +49,6 @@
                     $(".area-sms").append($mensagemUsuario);
                     $("#valorInput").val("");
 
-                    var $valoresBotDaAPI = "Resposta do bot vinda da API";
-                    var $mensagemBot = '<div class="user-bot user"><div class="icon"><img src="" /></div><div class="mensagem"><p>' + $valoresBotDaAPI + '</p></div></div>';
-                    $(".area-sms").append($mensagemBot);
-
                     $.ajax({
                         url: '/recive-input',
                         type: 'POST',
@@ -60,6 +56,10 @@
                         data: JSON.stringify({ userInput: $valores }),
                         success: function (data) {
                             console.log('Resposta da API:', data);
+
+
+                            var $mensagemBot = '<div class="user-bot user"><div class="icon"><img src="" /></div><div class="mensagem"><p>' + data.resposta + '</p></div></div>';
+                            $(".area-sms").append($mensagemBot);
                         },
                         error: function (error) {
                             console.error('Erro ao enviar input para o servidor:', error);
