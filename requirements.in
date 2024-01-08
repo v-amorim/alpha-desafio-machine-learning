@@ -11,3 +11,4 @@ tqdm
 virtualenv
 fastapi
 uvicorn
+jinja2

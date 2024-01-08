@@ -33,7 +33,15 @@
     </div>
     <script>
         $(document).ready(function () {
-            $("#click").on("click", function () {
+            $("#click").on("click", enviarMensagem);
+
+            $("#valorInput").on("keypress", function (event) {
+                if (event.which === 13) {  // Verifica se a tecla pressionada é "Enter"
+                    enviarMensagem();
+                }
+            });
+
+            function enviarMensagem() {
                 var $valores = $("#valorInput").val().trim();
 
                 if ($valores !== "") {
@@ -58,7 +66,7 @@
                         }
                     });
                 }
-            });
+            }
         });
     </script>
 </body>
