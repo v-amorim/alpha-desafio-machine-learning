@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = os.getenv('API_KEY')
+api_key = os.getenv('COHERE_API_KEY')
 
 co = cohere.Client(api_key)
 file_path = '../../skill_gem_data/skill_gem_info_treated.txt'
