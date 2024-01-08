@@ -1,2 +1,3 @@
-API_KEY=keykeykey
-GPT_KEY=keyKeyKEY
+# Crie uma copia com o nome ".env" na raiz do projeto
+COHERE_API_KEY=keykeykey
+OPENAI_API_KEY=keyKeyKEY
