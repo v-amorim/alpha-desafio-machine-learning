@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -9,39 +9,79 @@
 </head>
 
 <body>
-    <div id="chat-container">
-        <div id="chat-messages"></div>
-        <div id="user-input">
-            <input type="text" id="user-input-field" placeholder="Digite sua mensagem...">
-            <button id="send-button" onclick="sendMessage()">Enviar</button>
+    <div class="conteudo">
+        <header class="cabecalho">ChatBot</header>
+        <div class="area-sms">
+            <div class="user-bot user">
+                <div class="icon">
+                    <img src="" />
+                </div>
+                <div class="mensagem">
+                    <p>Olá como posso ajudar</p>
+                </div>
+            </div>
+
+            <div class="user-user user">
+                <div class="mensagem">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="user-bot user">
+                <div class="icon">
+                    <img src="" />
+                </div>
+                <div class="mensagem">
+                    <p>Olá como posso ajudar2</p>
+                </div>
+            </div>
+
+            <div class="user-user user">
+                <div class="mensagem">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="user-bot user">
+                <div class="icon">
+                    <img src="" />
+                </div>
+                <div class="mensagem">
+                    <p>Olá como posso ajudar3</p>
+                </div>
+            </div>
+
+            <div class="user-user user">
+                <div class="mensagem">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="user-bot user">
+                <div class="icon">
+                    <img src="" />
+                </div>
+                <div class="mensagem">
+                    <p>Olá como posso ajudar3</p>
+                </div>
+            </div>
+
+            <div class="user-user user">
+                <div class="mensagem">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="area-envio">
+            <div class="linhas">
+                <input type="text" placeholder="Mensagem...">
+                <button><img src="" /></button>
+            </div>
         </div>
     </div>
 
-    <script>
-        function sendMessage() {
-            var userInput = document.getElementById("user-input-field").value;
-            fetch('http://localhost:8000/receive-input', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ query: userInput }),
-            })
-                .then(response => response.json())
-                .then(data => {
-                    const chatMessages = document.getElementById("chat-messages");
-                    const messageDiv = document.createElement("div");
-                    messageDiv.innerHTML = `<p>Resposta do servidor: ${data.reranked_results}</p>`;
-                    chatMessages.appendChild(messageDiv);
-                    chatMessages.scrollTop = chatMessages.scrollHeight;
-                })
-                .catch(error => {
-                    console.error('Erro na solicitação:', error);
-                });
-
-            document.getElementById("user-input-field").value = "";
-        }
-    </script>
 </body>
 
 </html>

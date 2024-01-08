@@ -10,7 +10,7 @@ load_dotenv()
 api_key = os.getenv('API_KEY')
 
 co = cohere.Client(api_key)
-file_path = '../skill_gem_data/skill_gem_info_treated.txt'
+file_path = '../../skill_gem_data/skill_gem_info_treated.txt'
 
 with open(file_path, encoding='utf-8') as file:
     file_content = file.read()
