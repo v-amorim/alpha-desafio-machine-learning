@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Access the API key using the environment variable
-api_key = os.getenv('API_KEY')
+api_key = os.getenv('COHERE_API_KEY')
 
 # Now, you can use the api_key variable in your code
 co = cohere.Client(api_key)
