@@ -7,15 +7,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-cohere_client = cohere.Client(api_key=os.getenv('COHERE_API_KEY'))
+cohere_key = cohere.Client(api_key=os.getenv('COHERE_API_KEY'))
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 def get_chatgpt_response(prompt):
-    response = openai.Completion.create(
-        model="gpt-3.5-turbo",  
+    response = openai.Engine("text-davinci-003").create_completion(
         prompt=prompt,
-        max_tokens=150,  
+        max_tokens=150,
         n=1,
         stop=None
     )
@@ -48,7 +47,7 @@ skill_gem_list = [entry.strip() for entry in skill_gem_entries if entry.strip()]
 print('Input your query: ', end='')
 query = input()
 
-results = cohere_client.rerank(query=query, documents=skill_gem_list, top_n=5, model='rerank-multilingual-v2.0')
+results = cohere_key.rerank(query=query, documents=skill_gem_list, top_n=5, model='rerank-multilingual-v2.0')
 
 
 if results:
