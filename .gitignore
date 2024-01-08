@@ -24,7 +24,6 @@ coverage.xml
 .env
 
 # Images
-*.png
 *.jp[e]g
 
 # Tabular files
