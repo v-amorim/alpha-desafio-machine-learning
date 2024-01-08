@@ -35,7 +35,7 @@ Tudo junto, para facilitar:
 
 ## **Requirements**
 
-Sempre que for instalar uma nova dependência, é necessário atualizar o requirements.txt, para isso, basta rodar o comando abaixo:
+Sempre que for instalar uma nova dependência, é necessário atualizar o requirements.txt, para isso, coloque a nova dependencia no `requirements.in` e então rode o comando abaixo:
 
 ```bash
 # Ativa o ambiente virtual
