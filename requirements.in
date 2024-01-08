@@ -1,5 +1,6 @@
 autopep8
 beautifulsoup4
+cohere
 flake8
 lxml
 pip-tools
