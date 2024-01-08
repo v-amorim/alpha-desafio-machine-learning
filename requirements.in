@@ -9,3 +9,6 @@ python-dotenv
 requests
 tqdm
 virtualenv
+fastapi
+uvicorn
+jinja2
