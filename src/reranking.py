@@ -14,13 +14,13 @@ COHERE_API_URL = 'https://api.cohere.ai/v1/rerank'
 OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions'
 
 
-def get_cohere_reranking(user_query, documents, top_n=5):
+def get_cohere_reranking(query, documents, top_n=5):
     headers = {
         'Authorization': f'Bearer {COHERE_API_KEY}',
         'Content-Type': 'application/json',
     }
     data = {
-        'query': user_query,
+        'query': query,
         'documents': documents,
         'top_n': top_n,
         'model': 'rerank-multilingual-v2.0',
@@ -30,7 +30,7 @@ def get_cohere_reranking(user_query, documents, top_n=5):
     return response.json()
 
 
-def get_chatgpt_response(final_prompt):
+def get_chatgpt_response(prompt):
     headers = {
         'Authorization': f'Bearer {OPENAI_API_KEY}',
         'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ def get_chatgpt_response(final_prompt):
         'model': 'gpt-3.5-turbo',
         'messages': [
             {'role': 'system', 'content': 'You are a helpful assistant.'},
-            {'role': 'user', 'content': final_prompt},
+            {'role': 'user', 'content': prompt},
         ],
     }
     response = requests.post(OPENAI_API_URL, headers=headers, json=data)
@@ -58,26 +58,22 @@ skill_gem_entries = file_content.split('\n')
 
 skill_gem_list = [entry.strip() for entry in skill_gem_entries if entry.strip()]
 
-print('Input your query: ', end='')
-query = input()
 
-results = get_cohere_reranking(user_query=query, documents=skill_gem_list, top_n=5)
+def rerank(query: str) -> list[str]:
+    results = get_cohere_reranking(query=query, documents=skill_gem_list, top_n=5)
+    chatgpt_response = []
+    if results:
+        top_results = results['results'][:3] 
+        for i, result in enumerate(top_results, 1):
+            print(f"Cohere's top result {i}: {result}")
 
-if results:
-    top_results = results['results'][:3]  # Pegar as 3 primeiras habilidades
 
-    for i, result in enumerate(top_results, 1):
-        print(f"Cohere's top result {i}: {result}")
+            prompt = ('Resposta em português: baseando-se nas respostas do Cohere, dê uma breve explicação '
+                      'usando termos mais claros e usando exemplos sobre as habilidades de gema de Path of Exile '
+                      'para um jogador novo.\nRetorne neste padrão:\nNome da Gema - Detalhes - Exemplo:')
+            chatgpt_prompt = f'{prompt}\n\n{query}\n\n{result}'
+            chatgpt_response = get_chatgpt_response(chatgpt_prompt)
+            break
 
-        prompt = """
-        Resposta em português: baseando-se nas respostas do Cohere, dê uma breve explicação usando
-        termos mais claros e usando exemplos sobre as habilidades de gema de Path of Exile para um jogador novo.\n
-        Retorne neste padrão:\nNome da Gema - Detalhes - Exemplo:
-        """
-        chatgpt_prompt = f'{prompt}\n\n{query}\n\n{result}'
-        chatgpt_response = get_chatgpt_response(chatgpt_prompt)
-
-        print(f'\nChatGPT Response {i}:')
-        print(chatgpt_response)
-else:
-    print('No results from Cohere.')
+    return chatgpt_response
+    

@@ -10,7 +10,8 @@ body {
     align-items: center;
     min-height: 100vh;
     justify-content: center;
-    background: linear-gradient(180deg, #0860d3, #f00bb7);
+    background: #000 url(https://www.poewiki.net/w/images/9/98/Bg.jpg) no-repeat fixed center top;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -27,19 +28,23 @@ body {
 }
 
 .conteudo {
-    width: 380px;
+    width: 550px;
     box-shadow: 0 3px 7px rgba(0, 0, 0, .125);
 }
 
 .conteudo .cabecalho {
     color: #333;
-    height: 65px;
+    height: 100px;
     font-size: 26px;
     font-weight: 600;
     line-height: 65px;
     text-align: center;
-    background: #efefef;
+    background: #734e32;
     border-radius: 5px 5px 0 0;
+}
+
+.conteudo .cabecalho img {
+    height: 100px;
 }
 
 .conteudo .area-sms {
@@ -47,7 +52,7 @@ body {
     padding: 20px 16px;
     min-height: 450px;
     max-height: 450px;
-    background: linear-gradient(45deg, #13d4b4, #bd17a7);
+    background: #0f0f0f;
 }
 
 .conteudo .area-sms .user {
@@ -59,6 +64,8 @@ body {
 .area-sms .user-user {
     margin: 20px 0;
     justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .conteudo .area-sms .user .icon {
@@ -66,6 +73,7 @@ body {
     height: 40px;
     display: flex;
     background: #efefef;
+    border-radius: 100%;
 }
 
 .conteudo .area-sms .user .icon img {
@@ -83,7 +91,7 @@ body {
     padding: 9px 10px;
     font-size: 15px;
     font-weight: 500;
-    background: #0960e4;
+    background: #a38d6d;
     border-radius: 10px;
 }
 
@@ -94,20 +102,21 @@ body {
     font-weight: 500;
     background: #efefef;
     border-radius: 10px;
+    word-wrap: break-word;
 }
 
 .conteudo .area-envio {
     height: 60px;
     display: flex;
     align-items: center;
-    background: #efefef;
+    background: #734e32;
     justify-content: space-evenly;
     border-radius: 0 0 5px 5px;
 }
 
 .conteudo .area-envio .linhas {
     height: 40px;
-    width: 335px;
+    width: 85%;
     display: flex;
     align-items: center;
 }
@@ -118,7 +127,7 @@ body {
     padding: 0 15px;
     font-size: 17px;
     color: #333;
-    border: 1px solid #ccc;
+    border: 1px solid #0f0f0f;
     border-radius: 5px 0 0 5px;
 }
 
@@ -127,10 +136,11 @@ body {
     border: none;
     cursor: pointer;
     padding: 6px 10px;
-    background: #0860d3;
+    background: #a38d6d;
+    border: 1px solid #0f0f0f;
     border-radius: 0 5px 5px 0;
 }
 
 .conteudo .area-envio .linhas img {
-    width: 19px;
+    width: 20px;
 }
