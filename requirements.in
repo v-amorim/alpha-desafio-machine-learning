@@ -9,4 +9,3 @@ python-dotenv
 requests
 tqdm
 virtualenv
-openai
