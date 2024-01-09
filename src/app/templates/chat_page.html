@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="conteudo">
+        <header class="cabecalho">ChatBot</header>
+        <div class="area-sms">
+            <div class="user-bot user">
+                <div class="icon">
+                    <img src="" />
+                </div>
+                <div class="mensagem">
+                    <p>Olá como posso ajudar</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="area-envio">
+            <div class="linhas">
+                <input id="valorInput" type="text" placeholder="Mensagem...">
+                <button id="click"><img src="" /></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#click").on("click", enviarMensagem);
+
+            $("#valorInput").on("keypress", function (event) {
+                if (event.which === 13) {
+                    enviarMensagem();
+                }
+            });
+
+            function enviarMensagem() {
+                var $valores = $("#valorInput").val().trim();
+
+                if ($valores !== "") {
+                    var $mensagemUsuario = '<div class="user-user user"><div class="mensagem"><p>' + $valores + '</p></div></div>';
+                    $(".area-sms").append($mensagemUsuario);
+                    $("#valorInput").val("");
+
+                    $.ajax({
+                        url: '/recive-input',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify({ userInput: $valores }),
+                        success: function (data) {
+                            console.log('Resposta da API:', data);
+
+
+                            var $mensagemBot = '<div class="user-bot user"><div class="icon"><img src="" /></div><div class="mensagem"><p>' + data.resposta + '</p></div></div>';
+                            $(".area-sms").append($mensagemBot);
+                        },
+                        error: function (error) {
+                            console.error('Erro ao enviar input para o servidor:', error);
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

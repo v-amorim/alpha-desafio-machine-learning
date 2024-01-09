@@ -16,7 +16,7 @@ Também temos a biblioteca `pre-commit`, que padroniza os códigos de todos os c
 # Instala o pip-tools
 (.venv) > python -m pip install pip-tools
 # Gera o requirements.txt
-(.venv) > python -m piptools compile
+(.venv) > python -m piptools compile --upgrade
 # Instala as dependências
 (.venv) > python -m piptools sync
 # Instala o pre-commit (padrões de código)
@@ -27,21 +27,21 @@ Tudo junto, para facilitar:
 
 ```bash
 # Windows CMD e Powershell
-> python -m pip install virtualenv & python -m virtualenv .venv & .venv\Scripts\activate & python -m pip install pip-tools & python -m piptools compile & python -m piptools sync & pre-commit install
-> python -m pip install virtualenv ; python -m virtualenv .venv ; .venv\Scripts\activate ; python -m pip install pip-tools ; python -m piptools compile ; python -m piptools sync ; pre-commit install
+> python -m pip install virtualenv & python -m virtualenv .venv & .venv\Scripts\activate & python -m pip install pip-tools & python -m piptools compile --upgrade & python -m piptools sync & pre-commit install
+> python -m pip install virtualenv ; python -m virtualenv .venv ; .venv\Scripts\activate ; python -m pip install pip-tools ; python -m piptools compile --upgrade ; python -m piptools sync ; pre-commit install
 ```
 
 ---
 
 ## **Requirements**
 
-Sempre que for instalar uma nova dependência, é necessário atualizar o requirements.txt, para isso, basta rodar o comando abaixo:
+Sempre que for instalar uma nova dependência, é necessário atualizar o requirements.txt, para isso, coloque a nova dependencia no `requirements.in` e então rode o comando abaixo:
 
 ```bash
 # Ativa o ambiente virtual
 > .venv\Scripts\activate
 # Gera o requirements.txt
-(.venv) > python -m piptools compile
+(.venv) > python -m piptools compile --upgrade
 # Instala as dependências
 (.venv) > python -m piptools sync
 ```
@@ -50,8 +50,8 @@ Tudo junto, para facilitar:
 
 ```bash
 # Windows CMD e Powershell
-> .venv\Scripts\activate & python -m piptools compile & python -m piptools sync
-> .venv\Scripts\activate ; python -m piptools compile ; python -m piptools sync
+> .venv\Scripts\activate & python -m piptools compile --upgrade & python -m piptools sync
+> .venv\Scripts\activate ; python -m piptools compile --upgrade ; python -m piptools sync
 ```
 
 ---
