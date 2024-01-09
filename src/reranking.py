@@ -15,15 +15,17 @@ def get_chatgpt_response(prompt):
     openai.api_key = os.getenv('OPENAI_API_KEY')
     client = openai.Client()
     response = client.completions.create(
-        model='text-davinci-003',
+        model='davinci-002',
         prompt=prompt,
-        max_tokens=150,
+        max_tokens=250,
         temperature=0.7,
+        
     )
     return response.choices[0].text.strip()
 
 
 file_path = 'skill_gem_data/skill_gem_info_treated.txt'
+
 with open(file_path, encoding='utf-8') as file:
     file_content = file.read()
 
@@ -42,7 +44,8 @@ if results:
     top_result = results[0]
     print(f"Cohere's top result: {top_result}")
 
-    chatgpt_prompt = f"Given the query: '{query}', Cohere suggests the skill gem '{top_result}'. What can you tell me about it?"
+    prompt = f"Resposta em português: baseando-se nas respostas do Cohere, dê uma breve explicação usando termos mais claros e usando exemplos sobre as habilidades de gema de Path of Exile para um jogador novo.\nRetorne neste padrão:\nNome da Gema - Detalhes - Exemplo:\n===\nQuery:\nCohere Reranking:"
+    chatgpt_prompt = f"{prompt}\n\n{query}\n\n{top_result}"
     chatgpt_response = get_chatgpt_response(chatgpt_prompt)
 
     print('\nChatGPT Response:')

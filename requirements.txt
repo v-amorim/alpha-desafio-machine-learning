@@ -112,7 +112,6 @@ requests==2.31.0
     # via
     #   -r requirements.in
     #   cohere
-    #   googletrans
 sniffio==1.3.0
     # via
     #   anyio
