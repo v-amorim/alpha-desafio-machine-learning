@@ -13,14 +13,23 @@
 <body>
     <image href></image>
     <div class="conteudo">
-        <header class="cabecalho"><img src="static/Path_of_Exile_Logo.png" /></header>
+        <header class="cabecalho"><img src="static/imgs/Path_of_Exile_Logo.png" /></header>
         <div class="area-sms">
             <div class="user-bot user">
                 <div class="icon">
-                    <img src="static/tome.png" />
+                    <img src="static/imgs/tome.png" />
                 </div>
                 <div class="mensagem">
-                    <p>Ola posso te ajudar a escolher uma habilidade?</p>
+                    <p>Ola posso te ajudar a escolher uma habilidade? Me diga como vai querer jogar</p>
+                </div>
+            </div>
+
+            <div class="user-bot user">
+                <div class="icon">
+                    <img src="static/imgs/tome.png" />
+                </div>
+                <div class="mensagem">
+                    <p>Ex: Quero jogar como um guerreiro que consome furia para receber buffs</p>
                 </div>
             </div>
         </div>
@@ -28,7 +37,7 @@
         <div class="area-envio">
             <div class="linhas">
                 <input id="valorInput" type="text" placeholder="Mensagem...">
-                <button id="click"><img src="static/send.png" /></button>
+                <button id="click"><img src="static/imgs/send.png" /></button>
             </div>
         </div>
     </div>
@@ -59,7 +68,7 @@
                             console.log('Resposta da API:', data);
 
 
-                            var $mensagemBot = '<div class="user-bot user"><div class="icon"><img src="static/tome.png" /></div><div class="mensagem"><p>' + data.resposta + '</p></div></div>';
+                            var $mensagemBot = '<div class="user-bot user"><div class="icon"><img src="static/imgs/tome.png" /></div><div class="mensagem"><p>' + data.resposta + '</p></div></div>';
                             $(".area-sms").append($mensagemBot);
                         },
                         error: function (error) {
