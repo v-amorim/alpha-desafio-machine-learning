@@ -63,11 +63,12 @@ def rerank(query: str) -> list[str]:
     results = get_cohere_reranking(query=query, documents=skill_gem_list, top_n=5)
     chatgpt_response = []
     if results:
-        top_results = results['results'][:3]
+        top_results = results['results'][:3] 
         for i, result in enumerate(top_results, 1):
             print(f"Cohere's top result {i}: {result}")
 
-            prompt = ('Resposta em português: Se focando nas respostas do Cohere, dê uma breve explicação '
+
+            prompt = ('Resposta em português: baseando-se nas respostas do Cohere, dê uma breve explicação '
                       'usando termos mais claros e usando exemplos sobre as habilidades de gema de Path of Exile '
                       'para um jogador novo.\nRetorne neste padrão:\nNome da Gema - Detalhes - Exemplo:')
             chatgpt_prompt = f'{prompt}\n\n{query}\n\n{result}'
@@ -75,3 +76,4 @@ def rerank(query: str) -> list[str]:
             break
 
     return chatgpt_response
+    

@@ -1,3 +1,2 @@
-# Crie uma copia com o nome ".env" na raiz do projeto
-COHERE_API_KEY=keykeykey
-OPENAI_API_KEY=keyKeyKEY
+COHERE_API_KEY="api key"
+OPENAI_API_KEY="api key"
